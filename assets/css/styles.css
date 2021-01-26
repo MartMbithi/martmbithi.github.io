@@ -89,8 +89,8 @@ html {
 }
 
 body {
-  font-family: "roboto", sans-serif;
-  font-size: 14px;
+  font-family: "Share Tech Mono", sans-serif;
+  font-size: 20px;
   font-style: none;
   line-height: 24px;
   font-weight: 500;
@@ -107,7 +107,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "roboto", sans-serif;
+  font-family: 'Baumans', cursive;
 }
 
 p {
