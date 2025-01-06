@@ -1,2321 +1,585 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Explore Martin Mbithi's portfolio: A dynamic software engineer in Kenya specializing in full-stack development, scalable systems, and innovative tech solutions."
+    />
+    <meta
+      name="keywords"
+      content="Martin Mbithi, Software Engineer Kenya, Full-Stack Developer, Tech Solutions, Scalable Systems, Innovative Technology"
+    />
+    <meta name="author" content="Martin Mbithi" />
 
-<head>
-    <title>Martin Mbithi - My Portfolio</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Martin Mbithi Personal Portfolio" />
-    <meta name="keywords"
-        content="creative, cv, designer,  online cv, online resume, powerful portfolio, professional, professional resume, responsive, resume, vcard Martin Mbithi, Web Developer, Fullstack Web Developer, Software Engineer, graphic designer " />
-    <meta name="developer" content="Devlan Solutions LTD">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Martin Mbithi - Software Engineer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Explore Martin Mbithi's professional portfolio showcasing expertise in software engineering, scalable systems, and cutting-edge technology in Kenya."
+    />
+    <meta property="og:image" content="assets/img/og-image.jpg" />
+    <meta property="og:url" content="https://www.martinmbithi.com" />
+    <meta property="og:site_name" content="Martin Mbithi Portfolio" />
 
-    <!-- FAV AND ICONS   -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
-    <link rel="shortcut icon" href="assets/images/apple-icon.png">
-    <link rel="shortcut icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
-    <link rel="shortcut icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Martin Mbithi - Software Engineer Portfolio"
+    />
+    <meta
+      name="twitter:description"
+      content="Discover Martin Mbithi's portfolio, showcasing top-notch software engineering and innovative tech solutions."
+    />
+    <meta name="twitter:image" content="assets/img/twitter-image.jpg" />
 
-    <!-- Google Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
-    <!-- Animate CSS-->
-    <link rel="stylesheet" href="assets/plugins/css/animate.css">
-    <!-- Owl Carousel CSS-->
-    <link rel="stylesheet" href="assets/plugins/css/owl.css">
-    <!-- Fancybox-->
-    <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.martinmbithi.com" />
 
-    <!-- Custom CSS-->
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSZH0W9N7X"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.ico"
+    />
 
-    gtag('config', 'G-SSZH0W9N7X');
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Martin Mbithi",
+        "url": "https://www.martinmbithi.com",
+        "image": "https://www.martinmbithi.com/assets/img/profile-image.jpg",
+        "jobTitle": "Software Engineer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Devlan Solutions LTD"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/martin-mbithi",
+          "https://github.com/martinmbithi",
+          "https://twitter.com/martinmbithi"
+        ]
+      }
     </script>
 
+    <!-- Page Title -->
+    <title>Martin Mbithi - Software Engineer Portfolio | Kenya</title>
 
-</head>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
 
-<body class="dark-vertion black-bg">
+    <!-- Modernizr JS -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
 
-
-
-    <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav" id="mh-header">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg mh-nav nav-btn">
-                    <a class="navbar-brand" href="">
-                        <h1 class="text-success">MartMbithi</h1>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-0 ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#mh-home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#mh-about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#mh-experience">Experiences</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#mh-portfolio">Portfolio</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#mh-contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+  <body>
+    <!-- Header Section Start -->
+    <header id="active-sticky" class="position-fixed bg-white w-100">
+      <div class="container-fluid px-180">
+        <div class="navbar navbar-light bg-white px-0">
+          <a class="navbar-brand" href="index.html"
+            ><img src="assets/img/logo-black.png" alt="Logo"
+          /></a>
+          <span
+            class="menu-toggler d-md-none"
+            data-toggle="collapse"
+            data-target="#accordianMenu"
+          >
+            <i class="ti-menu"></i>
+          </span>
+          <nav
+            id="accordianMenu"
+            class="primary-menu horizontal my-auto ml-auto collapse d-md-block"
+          >
+            <ul>
+              <li>
+                <a href="javascript:void(0)"><i class="ti-home"></i> Home</a>
+                <ul>
+                  <li><a href="index.html">Home 01</a></li>
+                  <li><a href="index-2.html">Home 02</a></li>
+                  <li><a href="index-3.html">Home 03</a></li>
+                  <li><a href="index-4.html">Home 04</a></li>
+                  <li><a href="index-5.html">Home 05</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0)"
+                  ><i class="ti-view-grid"></i> Portfolio</a
+                >
+                <ul>
+                  <li>
+                    <a href="javascript:void(0)">Creative</a>
+                    <ul>
+                      <li>
+                        <a href="portfolio/creative-1.html">Creative 01</a>
+                      </li>
+                      <li>
+                        <a href="portfolio/creative-2.html">Creative 02</a>
+                      </li>
+                      <li>
+                        <a href="portfolio/creative-3.html">Creative 03</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">Grid</a>
+                    <ul>
+                      <li><a href="portfolio/grid-2.html">02 Column</a></li>
+                      <li><a href="portfolio/grid-2.html">03 Column</a></li>
+                      <li><a href="portfolio/grid-4.html">04 Column</a></li>
+                      <li><a href="portfolio/grid-full.html">Full Wide</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">Details</a>
+                    <ul>
+                      <li><a href="portfolio/details.html">Details 01</a></li>
+                      <li><a href="portfolio/details-2.html">Details 02</a></li>
+                      <li><a href="portfolio/details-3.html">Details 03</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0)"><i class="ti-files"></i> Pages</a>
+                <ul>
+                  <li><a href="about-me.html">About Me</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="error-404.html">404 Error</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0)"
+                  ><i class="ti-layout-list-thumb-alt"></i> Blog</a
+                >
+                <ul>
+                  <li><a href="blog.html">Blog 01</a></li>
+                  <li><a href="blog-2.html">Blog 02</a></li>
+                  <li><a href="blog-3.html">Blog 03</a></li>
+                  <li><a href="blog-4.html">Blog 04</a></li>
+                  <li><a href="blog-details.html">Blog Details</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="contact.html"><i class="ti-email"></i> Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
-
-    <!--
-        ===================
-           Home
-        ===================
-        -->
-    <section class="mh-home image-bg home-2-img" id="mh-home">
-        <div class="img-foverlay img-color-overlay">
-            <div class="container">
-                <div class="row section-separator xs-column-reverse vertical-middle-content home-padding">
-                    <div class="col-sm-6">
-                        <div class="mh-header-info">
-                            <div class="mh- wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                                <span>Hey there, Its</span>
-                            </div>
-
-                            <h2 class="wow fadeInUp text-success" data-wow-duration="0.8s" data-wow-delay="0.2s">Martin Mbithi</h2>
-                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                A software engineer, who thrives on continuous learning and adapting to diverse challenges. My focus on precision and optimizing performance drives me to deliver high-quality solutions. 
-                                I also enjoy solving complex problems with creativity and logic, exploring new possibilities and pushing the boundaries of what is possible.
-                            </p>
-
-                            <ul>
-                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-                                    <i class="fa fa-phone"></i>
-                                        <a href="tel:+254740847563">+254 740 847 563</a>
-                                </li>
-                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-                                    <i class="fa fa-envelope"></i>
-                                        <a href="mailto:martinezmbithi@gmail.com">martinezmbithi@gmail.com</a>
-                                </li>
-                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i
-                                        class="fa fa-map-marker"></i>
-                                    <address>Nairobi - Kenya</address>
-                                </li>
-                            </ul>
-
-                            <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                <li>
-                                    <a rel="noopener" href="https://github.com/MartMbithi" target="_blank">
-                                        <i class="fa fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a rel="noopener" href="https://www.linkedin.com/in/martin-mbithi-6626b617a/"
-                                        target="_blank">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a rel="noopener" href="https://twitter.com/martinezmbithi" target="_blank">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a rel="noopener" href="https://www.facebook.com/profile.php?id=100087886593322"
-                                        target="_blank">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-                            <div class="img-border">
-                                <img src="assets/images/profile.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
+    <div class="header-space"></div>
+    <!-- Header Section End -->
+    <!-- Slider Section Start -->
+    <section class="main-slider box-slider position-relative">
+      <div class="container-fluid px-180">
+        <div
+          id="mainCarousel"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner bg-light">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="slide-thumb lr-effect">
+                    <img src="assets/img/slider/4.jpg" alt="Thumbnail" />
+                  </div>
                 </div>
+                <div
+                  class="col-12 col-md-6 d-flex align-items-center justify-content-center"
+                >
+                  <div class="slide-caption style2 lr-effect">
+                    <h1 class="text-uppercase text-dark mb-15">
+                      I Am Kevin Wood
+                    </h1>
+                    <h4 class="text-uppercase text-dark mb-35">
+                      Creative UX & UI Designr
+                    </h4>
+                    <a
+                      href="about-us.html"
+                      class="btn btn-default btn-outline-dark"
+                      >About Me</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- Slide End -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="slide-thumb lr-effect">
+                    <img src="assets/img/slider/5.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-6 d-flex align-items-center justify-content-center"
+                >
+                  <div class="slide-caption style2 lr-effect">
+                    <h1 class="text-uppercase text-dark mb-15">
+                      I Am David Jon
+                    </h1>
+                    <h4 class="text-uppercase text-dark mb-35">
+                      Wordpress Developer
+                    </h4>
+                    <a
+                      href="about-us.html"
+                      class="btn btn-default btn-outline-dark"
+                      >About Me</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide End -->
+          </div>
         </div>
+        <a
+          class="carousel-control-prev carousel-control"
+          href="#mainCarousel"
+          data-slide="prev"
+        >
+          <span class="link-btn text-dark">Prev</span>
+        </a>
+        <a
+          class="carousel-control-next carousel-control"
+          href="#mainCarousel"
+          data-slide="next"
+        >
+          <span class="link-btn text-dark">Next</span>
+        </a>
+      </div>
+      <div
+        class="social-icons social-dark social-vertical d-inline-flex flex-row flex-sm-column flex-md-row flex-xl-column"
+      >
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="ti-facebook"></i
+        ></a>
+        <a href="https://www.twitter.com/" target="_blank"
+          ><i class="ti-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="ti-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/" target="_blank"
+          ><i class="ti-linkedin"></i
+        ></a>
+      </div>
     </section>
-
-    <!--
-        ===================
-           ABOUT
-        ===================
-        -->
-    <section class="mh-about" id="mh-about">
+    <!-- Slider Section End -->
+    <!-- Main Content Area Start -->
+    <main>
+      <!-- Portfolio Section Start -->
+      <section class="portfolio-area section-py bg-white">
+        <div class="container-fluid px-180">
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="section-heading mb-70">
+                <h2 class="pb-5">Latest Works</h2>
+                <p>
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution <br class="d-none d-md-block" />
+                  of letters, as opposed to using 'Content here, content
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div id="fitRows-grid" class="portfolio-item style2">
+                <div class="grid-item w-25 px-10 mb-20">
+                  <div class="single-portfolio position-relative text-center">
+                    <img
+                      src="assets/img/portfolio/style2/1.jpg"
+                      alt="Thumbnail"
+                    />
+                    <div
+                      class="portfolio-title bg-white rgb-85 d-flex flex-column justify-content-center"
+                    >
+                      <a href="portfolio/details-2.html"
+                        ><h3>Business card</h3></a
+                      >
+                      <h5>Branding</h5>
+                      <a href="portfolio/details-2.html"
+                        ><i class="ti-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item End -->
+                <div class="grid-item w-25 px-10 mb-20">
+                  <div class="single-portfolio position-relative text-center">
+                    <img
+                      src="assets/img/portfolio/style2/2.jpg"
+                      alt="Thumbnail"
+                    />
+                    <div
+                      class="portfolio-title bg-white rgb-85 d-flex flex-column justify-content-center"
+                    >
+                      <a href="portfolio/details-2.html"
+                        ><h3>Business card</h3></a
+                      >
+                      <h5>Branding</h5>
+                      <a href="portfolio/details-2.html"
+                        ><i class="ti-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item End -->
+                <div class="grid-item w-25 px-10 mb-20">
+                  <div class="single-portfolio position-relative text-center">
+                    <img
+                      src="assets/img/portfolio/style2/3.jpg"
+                      alt="Thumbnail"
+                    />
+                    <div
+                      class="portfolio-title bg-white rgb-85 d-flex flex-column justify-content-center"
+                    >
+                      <a href="portfolio/details-2.html"
+                        ><h3>Business card</h3></a
+                      >
+                      <h5>Branding</h5>
+                      <a href="portfolio/details-2.html"
+                        ><i class="ti-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item End -->
+                <div class="grid-item w-25 px-10 mb-20">
+                  <div class="single-portfolio position-relative text-center">
+                    <img
+                      src="assets/img/portfolio/style2/4.jpg"
+                      alt="Thumbnail"
+                    />
+                    <div
+                      class="portfolio-title bg-white rgb-85 d-flex flex-column justify-content-center"
+                    >
+                      <a href="portfolio/details-2.html"
+                        ><h3>Business card</h3></a
+                      >
+                      <h5>Branding</h5>
+                      <a href="portfolio/details-2.html"
+                        ><i class="ti-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item End -->
+                <div class="grid-item w-25 px-10 mb-20">
+                  <div class="single-portfolio position-relative text-center">
+                    <img
+                      src="assets/img/portfolio/style2/5.jpg"
+                      alt="Thumbnail"
+                    />
+                    <div
+                      class="portfolio-title bg-white rgb-85 d-flex flex-column justify-content-center"
+                    >
+                      <a href="portfolio/details-2.html"
+                        ><h3>Business card</h3></a
+                      >
+                      <h5>Branding</h5>
+                      <a href="portfolio/details-2.html"
+                        ><i class="ti-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item End -->
+                <div class="grid-item w-25 px-10 mb-20">
+                  <div class="single-portfolio position-relative text-center">
+                    <img
+                      src="assets/img/portfolio/style2/6.jpg"
+                      alt="Thumbnail"
+                    />
+                    <div
+                      class="portfolio-title bg-white rgb-85 d-flex flex-column justify-content-center"
+                    >
+                      <a href="portfolio/details-2.html"
+                        ><h3>Business card</h3></a
+                      >
+                      <h5>Branding</h5>
+                      <a href="portfolio/details-2.html"
+                        ><i class="ti-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item End -->
+                <div class="grid-item w-25 px-10 mb-20">
+                  <div class="single-portfolio position-relative text-center">
+                    <img
+                      src="assets/img/portfolio/style2/7.jpg"
+                      alt="Thumbnail"
+                    />
+                    <div
+                      class="portfolio-title bg-white rgb-85 d-flex flex-column justify-content-center"
+                    >
+                      <a href="portfolio/details-2.html"
+                        ><h3>Business card</h3></a
+                      >
+                      <h5>Branding</h5>
+                      <a href="portfolio/details-2.html"
+                        ><i class="ti-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item End -->
+                <div class="grid-item w-25 px-10 mb-20">
+                  <div class="single-portfolio position-relative text-center">
+                    <img
+                      src="assets/img/portfolio/style2/8.jpg"
+                      alt="Thumbnail"
+                    />
+                    <div
+                      class="portfolio-title bg-white rgb-85 d-flex flex-column justify-content-center"
+                    >
+                      <a href="portfolio/details-2.html"
+                        ><h3>Business card</h3></a
+                      >
+                      <h5>Branding</h5>
+                      <a href="portfolio/details-2.html"
+                        ><i class="ti-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item End -->
+              </div>
+              <div class="text-center mt-60">
+                <a href="#" class="btn btn-default btn-outline-dark"
+                  >Load More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+      <!-- Clients Section Start -->
+      <div class="clients-area section-pb bg-white overflow-hidden">
+        <div class="container-fluid px-180">
+          <div id="seven-items" class="our-clients">
+            <div class="client-item">
+              <a href="#"
+                ><img src="assets/img/clients/1.png" alt="Client Logo"
+              /></a>
+            </div>
+            <div class="client-item">
+              <a href="#"
+                ><img src="assets/img/clients/2.png" alt="Client Logo"
+              /></a>
+            </div>
+            <div class="client-item">
+              <a href="#"
+                ><img src="assets/img/clients/3.png" alt="Client Logo"
+              /></a>
+            </div>
+            <div class="client-item">
+              <a href="#"
+                ><img src="assets/img/clients/4.png" alt="Client Logo"
+              /></a>
+            </div>
+            <div class="client-item">
+              <a href="#"
+                ><img src="assets/img/clients/5.png" alt="Client Logo"
+              /></a>
+            </div>
+            <div class="client-item">
+              <a href="#"
+                ><img src="assets/img/clients/6.png" alt="Client Logo"
+              /></a>
+            </div>
+            <div class="client-item">
+              <a href="#"
+                ><img src="assets/img/clients/7.png" alt="Client Logo"
+              /></a>
+            </div>
+            <div class="client-item">
+              <a href="#"
+                ><img src="assets/img/clients/2.png" alt="Client Logo"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Clients Section End -->
+    </main>
+    <!-- Main Content Area End -->
+    <footer>
+      <div class="widget-area py-100 bg-dark">
         <div class="container">
-            <div class="row section-separator">
-                <div class="col-sm-12 col-md-12">
-                    <div class="mh-about-inner">
-                        <h2 class="wow fadeInUp text-success text-center data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
-                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                            Experienced Full-Stack Developer specializing in cloud architecture and scalable solutions. With 6+ years of expertise
-                            in software development, I excel at building resilient solutions across multiple programming languages, frameworks,
-                            and platforms. Adept in cloud infrastructure, database management and software projects management, I have a proven record of
-                            delivering high-quality web, mobile and native applications that enhance user experience and performance.
-                        </p>
-                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" align="center">
-                            Curious to see more of my epic journey in this tech jungle? <a class="text-success" target="_blank" href="assets/resume/martin_mbithi_resume.pdf"><u> Checkout my resume</u></a>
-                        </p>
-                    </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="footer-widget">
+                <div class="footer-logo mb-20">
+                  <a href="index.html"
+                    ><img src="assets/img/logo-white.png" alt="Logo"
+                  /></a>
                 </div>
+                <p class="mb-20">
+                  The point of using Lorem Ipsum is that it has a
+                  <br class="d-none d-md-block" />
+                  normal distribution of letters, as opposed to using nt here,
+                  conten
+                </p>
+                <a href="contact.html" class="footer-link">Contact Us</a>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!--
-    ===================
-        EXPERIENCES
-    ===================
-    -->
-    <section class="mh-experince image-bg featured-img-one" id="mh-experience">
-        <div class="img-color-overlay">
-            <div class="container">
-                <div class="row section-separator">
-
-                    <!-- Work Experience -->
-                    <div class="col-sm-12 col-md-8">
-                        <div class="mh-work">
-                            <h3 class="text-success">Work Experience</h3>
-                                <div class="mh-experience-deatils">
-                                    <!-- County Government Of Makueni -->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s">
-                                    <h4 class="text-success">Software Engineer – Applications Development Section<br>
-                                        <a  class="text-success" target="_blank"
-                                            href="https://makueni.go.ke">
-                                            Government of Makueni County
-                                        </a>
-                                    </h4>
-                                    <div class="mh-eduyear text-success">2023 - </div>
-                                    <span>Responsibilities :</span>
-                                    <ul class="work-responsibility" align="left" >
-                                        <li>
-                                            <i class="fa fa-circle"></i>
-                                            Played a pivotal role in automating government services, significantly enhancing service delivery to county
-                                            citizens by streamlining processes and reducing manual workloads.
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-circle"></i>
-                                            Spearheaded the design, development, and implementation of innovative and scalable software solutions,
-                                            including web applications and mobile apps, using advanced technologies such as JavaScript, HTML/CSS, PHP,
-                                            Python, and Java, thereby significantly enhancing user experience and client satisfaction.
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-circle"></i>
-                                            Developed RESTful APIs to facilitate seamless communication and integration between various software
-                                            components, optimizing data exchange processes.
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-circle"></i>
-                                            Implemented industry best practices, including rigorous code reviews, version control (Git), and unit testing,
-                                            which led to improved code quality, maintainability, and reduced technical debt.
-                                        </li>
-                                    </ul>
-                                </div>  
-                                
-                                <!-- ICT Authority -->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s">
-                                    <h4 class="text-success">
-                                        ICT Officer<br>
-                                        <a target="_blank" class="text-success" href="https://icta.go.ke">
-                                            ICT Authority Machakos County HQ
-                                        </a>
-                                    </h4>
-                                    <div class="mh-eduyear text-success">2022 - 2023</div>
-                                    <span>Responsibilities :</span>
-                                    <ul class="work-responsibility">
-                                        <li><i class="fa fa-circle"></i>
-                                            Delivered comprehensive technical support to end-users, swiftly and effectively resolving hardware and
-                                            software issues to minimize downtime and ensure smooth operations.
-                                        </li>
-                                        <li><i class="fa fa-circle"></i>
-                                            Executed the implementation and maintenance of network infrastructure, ensuring uninterrupted
-                                            connectivity and optimal system performance
-                                        </li>
-                                        <li><i class="fa fa-circle"></i>
-                                            Conducted routine system audits and implemented robust cybersecurity measures, safeguarding
-                                            against data breaches and unauthorized access
-                                        </li>
-                                        <li><i class="fa fa-circle"></i>
-                                            Fostered collaboration with cross-functional teams to design and implement cutting-edge technology
-                                            solutions, resulting in enhanced efficiency and productivity throughout the organization
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <!-- WCF -->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s">
-                                    <h4 class="text-success">
-                                        Mobile Application Developer <br> 
-                                        <a target="_blank" class="text-success" href="#">World
-                                            Christian Fellowship Inc
-                                        </a>
-                                        </h4>
-                                    <div class="mh-eduyear text-success">2021 - 2022</div>
-                                    <span>Responsibilities :</span>
-                                    <ul class="work-responsibility">
-                                        <li><i class="fa fa-circle"></i>
-                                            Developed and maintained native iOS and Android applications using Swift and Java.
-                                        </li>
-                                        <li><i class="fa fa-circle"></i>
-                                            Collaborated with a cross-functional team of designers and backend developers to deliver feature-rich
-                                            and user-friendly applications.
-                                        </li>
-                                        <li><i class="fa fa-circle"></i>
-                                            Conducted rigorous testing across multiple devices and platforms to identify and resolve compatibility
-                                            issues, resulting in a 30% increase in user satisfaction and optimized app performance by analyzing and
-                                            improving memory usage, reducing loading times by 20%.
-                                        </li>
-                                        <li><i class="fa fa-circle"></i>
-                                            Assisted in the development of a new feature that led to a 15% increase in app downloads within the
-                                            first month of release.
-                                        </li>
-                                    </ul>
-                                </div>
-                                               
-                                <!-- Ukamba Bible College -->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s">
-                                    <h4 class="text-success">
-                                        Web Developer And ERP Support Officer 
-                                        <br>
-                                        <a target="_blank" class="text-success"
-                                            href="https://ubc.co.ke">UBC
-                                        </a>
-                                    </h4>
-                                    <div class="mh-eduyear text-success">2020 - 2021</div>
-                                    <span>Responsibilities :</span>
-                                    <ul class="work-responsibility">
-                                        <li><i class="fa fa-circle"></i>
-                                            Collaborated closely with UI/UX designers to bring visually appealing and engaging designs to life, resulting in a
-                                            25% increase in website traffic.
-                                        </li>
-                                        <li><i class="fa fa-circle"></i>
-                                            Implemented efficient and maintainable code, adhering to industry best practices and coding standards.
-                                        </li>
-                                        <li><i class="fa fa-circle"></i>
-                                            Optimized website performance by analyzing and improving page load times, resulting in a 15% decrease in
-                                            bounce rate.
-                                        </li>
-                                        
-                                        <li><i class="fa fa-circle"></i>
-                                            Implemented security measures and access controls to safeguard sensitive data and ensure compliance with
-                                            data protection regulations.
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <!-- eZANA LMS -->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.4s">
-                                    <h4 class="text-success">
-                                        Web Application Developer <br>
-                                        <a target="_blank" class="text-success" href="https://ezana.org">Ezana
-                                            LMS Group
-                                        </a>
-                                    </h4>
-                                    <div class="mh-eduyear text-success"> 2020 </div>
-                                    <span>Responsibilities :</span>
-                                    <ul class="work-responsibility">
-                                        <li><i class="fa fa-circle"></i>
-                                            Designed and developed responsive and user-friendly web applications using HTML, CSS, JavaScript, and modern
-                                            front-end frameworks such as React, Vue and Bootstrap.
-                                        </li>
-                                        
-                                        <li><i class="fa fa-circle"></i>
-                                            Utilized back-end technologies such as Node.js and Express to build robust and scalable server-side
-                                            components and APIs and implemented RESTful APIs to facilitate seamless communication between the front-
-                                            end and back-end components, enabling dynamic content updates and interactive features.
-                                        </li>
-                                        
-                                        <li><i class="fa fa-circle"></i>
-                                            Utilized version control systems (e.g., Git) to manage codebase changes and collaborated effectively with a
-                                            team of developers using agile methodologies.
-                                        </li>
-                                        
-                                        <li><i class="fa fa-circle"></i>
-                                            Optimized application performance by analyzing and refining database queries and improving page load times by
-                                            15%.
-                                        </li>
-                                    </ul>
-                                </div> 
-
-                                <!-- Devlan Solutions LTD -->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                 data-wow-delay="0.4s">
-                                 <h4 class="text-success">Software Engineer<br>
-                                     <a target="_blank" class="text-success"
-                                         href="https://devlan.co.ke">
-                                         Devlan Solutions LTD
-                                     </a>
-                                 </h4>
-                                 <div class="mh-eduyear text-success">2018 - 2020</div>
-                                 <span>Responsibilities :</span>
-                                 <ul class="work-responsibility" >
-                                    <li>
-                                        <i class="fa fa-circle"></i>
-                                        Implemented best practices in software engineering, including code reviews, version control (Git), and unit
-                                        testing, resulting in improved code quality and maintainability.
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-circle"></i>
-                                        Utilized agile methodologies to deliver features and updates on time, ensuring alignment with project goals and
-                                        customer needs.
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-circle"></i>
-                                        Developed RESTful APIs to enable seamless communication between various software components, facilitating
-                                        data exchange and integration.
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-circle"></i>
-                                        Optimized applications performance by identifying and addressing bottlenecks and conducting profiling and
-                                        performance tuning.
-                                    </li>
-                                 </ul>
-                                </div>
-
-                                <!-- Lauh Print Company -->
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.6s">
-                                    <h4 class="text-success">
-                                        Graphic Designer <br> 
-                                        <a href="#" class="text-success"> Lauh Print Co. Machakos</a>
-                                    </h4>
-                                    <div class="mh-eduyear text-success">2016 - 2017</div>
-                                    <span>Responsibilities :</span>
-                                    <ul class="work-responsibility">
-                                        <li><i class="fa fa-circle"></i>
-                                            Collaborated with clients and internal teams to conceptualize and create visually compelling graphics for various
-                                            projects, including branding, marketing materials, and digital assets.
-                                        </li>
-                                        
-                                        <li><i class="fa fa-circle"></i>
-                                            Designed and executed print materials such as brochures, posters, and business cards, ensuring alignment with
-                                            clients' brand guidelines and project objectives.
-                                        </li>
-                                        
-                                        <li><i class="fa fa-circle"></i>
-                                            Utilized Adobe Creative Suite (Photoshop, Illustrator, InDesign) to craft high-quality designs and artwork,
-                                            consistently exceeding client expectations.
-                                        </li>
-                                        
-                                        <li><i class="fa fa-circle"></i>
-                                            Managed multiple projects simultaneously, met tight deadlines, and maintained a high level of attention to
-                                            detail.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Educational History -->
-                    <div class="col-sm-12 col-md-4">
-                        <div class="mh-education">
-                            <h3 class="wow fadeInUp text-success" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
-                            <div class="mh-education-deatils">
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.3s">
-                                    <h4>Atlassian Jira Certification<br> <a href=""> Atlassian & GreatLearning </a></h4>
-                                    <div class="mh-eduyear">2024</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.3s">
-                                    <h4>Agile Project Manager Certification<br> <a href="">HP Foundation </a></h4>
-                                    <div class="mh-eduyear">2024</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.3s">
-                                    <h4>DevOps Certification<br> <a href="">Edurika </a></h4>
-                                    <div class="mh-eduyear">2022</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.3s">
-                                    <h4>Android Development Certification<br> <a href=""> Andela GADS Programme </a></h4>
-                                    <div class="mh-eduyear">2019 - 2020</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.3s">
-                                    <h4>Mobile Web Certification <br> <a href=""> Andela GADS Programme </a></h4>
-                                    <div class="mh-eduyear">2019 - 2020</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.3s">
-                                    <h4>Google Digital Marketing Certification <br> <a href=""> Google Skills For Africa </a></h4>
-                                    <div class="mh-eduyear">2018 - 2019</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.3s">
-                                    <h4>Google Analytics  Certification<br> <a href=""> Google Analytics Academy </a></h4>
-                                    <div class="mh-eduyear">2018 - 2018</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.3s">
-                                    <h4>Bachelors Of Science In Computer Science <br> <a target="_blank"
-                                            href="https://spu.ac.ke"> St Paul's University </a></h4>
-                                    <div class="mh-eduyear">2018 - 2022</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.5s">
-                                    <h4>NDG Linux Essentials Certification<br> <a href="#">CISCO</a></h4>
-                                    <div class="mh-eduyear">2018-2019</div>
-                                </div>
-
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.5s">
-                                    <h4>NDG Linux Unhatched Certification <br> <a href="#">CISCO</a></h4>
-                                    <div class="mh-eduyear">2018-2019</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.5s">
-                                    <h4>Cyber Security Essentials Certification<br> <a href="#">CISCO</a></h4>
-                                    <div class="mh-eduyear">2018-2019</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.5s">
-                                    <h4>Graphic Design <br> <a href="#">CTC Pasha Kawangware</a></h4>
-                                    <div class="mh-eduyear">2017-2018</div>
-                                </div>
-
-                                <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                    data-wow-delay="0.5s">
-                                    <h4>ICDL <br> <a href="#">CTC Pasha Kawangware</a></h4>
-                                    <div class="mh-eduyear">2017-2018</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--
-    ===================
-        PORTFOLIO
-    ===================
-    -->
-    <section class="mh-portfolio" id="mh-portfolio">
+      </div>
+      <div class="copyright-area py-15 bg-secondary">
         <div class="container">
-            <div class="row section-separator">
-                <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                    <h3 class="text-success">Portfolio &amp; Projects</h3>
-                </div>
-                <div class="part col-sm-12">
-                    <div class="portfolio-nav col-sm-12" id="filter-button">
-                        <ul>
-                            <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s"
-                                data-wow-delay="0.1s"> <span>All Categories</span></li>
-                            <li data-filter=".web_based_information_systems" class="wow fadeInUp"
-                                data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Information Management Systems</span></li>
-                            <li data-filter=".websites" class="wow fadeInUp" data-wow-duration="0.8s"
-                                data-wow-delay="0.2s"><span>Websites</span></li>
-                            <li data-filter=".android_apps" class="wow fadeInUp" data-wow-duration="0.8s"
-                                data-wow-delay="0.3s"><span>Mobile Applications</span></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s"
-                        data-wow-delay="0.5s">
-                        <div class="portfolioContainer row">
-                            <!-- Tana Solutions LTD Website -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/tana_solutions_ltd.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Tana Solutions LTD</h5>
-                                        <span class="sub-title">Tana Solutions LTD - Your IT Solutions Partner</span>
-                                        <a href="assets/images/portfolio/tana_solutions_ltd.png" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Umanyi Center -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/umanyi_center.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Makueni Umanyi Center</h5>
-                                        <a data-fancybox data-src="#umanyi_center"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- College ERP -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/college_erp.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">College ERP</h5>
-                                        <a data-fancybox data-src="#college_erp"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- ECDE Database -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/ecde_database.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">ECDE SaaS ERP</h5>
-                                        <a data-fancybox data-src="#ecde"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Kibmawasco Site -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/kibmawasco.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Kibwezi-Makindu Water and Sewerage Company</h5>
-                                        <a href="assets/images/portfolio/kibmawasco.png" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                                                                
-
-                            <!-- NCA AIMS -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/nca_aims.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">NCA Assets Information Management System</h5>
-                                        <a data-fancybox data-src="#aims"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Supplier Registration Portal -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/iSupplier.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Supplier Registration Portal</h5>
-                                        <a data-fancybox data-src="#iSupplier"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                             <!-- Mwaani Girls -->
-                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/mwaani_girls.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Mwaani Girls High School</h5>
-                                        <span class="sub-title">Mwaani Girls High School - Strive for excellence </span>
-                                        <a href="assets/images/portfolio/mwaani_girls.png" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                           
-                            <!-- Makueni Boys -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/makueni boys.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Makueni Boys High School</h5>
-                                        <span class="sub-title">Makueni Boys High School - Like a tree knowledge grows </span>
-                                        <a href="assets/images/portfolio/makueni boys.png" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                            <!-- PMTS -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/pmts.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Projects Monitoring and Tracking System</h5>
-                                        <a data-fancybox data-src="#PMTS"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Eregister -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/eregister.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">e Register</h5>
-                                        <a data-fancybox data-src="#eregister"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                            <!-- Bee Care Africa LTD Website -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                
-                                <figure>
-                                    <img src="assets/images/portfolio/beecare.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Beecare Africa LTD</h5>
-                                        <span class="sub-title">Beecare appiaries</span>
-                                        <a href="assets/images/portfolio/beecare.png" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Anita Mbinya Foundation -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/anitambinya.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Anita Mbinya Foundation</h5>
-                                        <span class="sub-title">Charity organization</span>
-                                        <a href="assets/images/portfolio/anitambinya.jpg" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            
-
-                            <!-- Market Prices Tool -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/marketprices.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Market Prices Tool</h5>
-                                        <a data-fancybox data-src="#mpt"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            <!-- Market Prices Tool -->
-
-                            <!-- The Kitondo School -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/thekitondo.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">The Kitondo School</h5>
-                                        <span class="sub-title">The Kitondo School</span>
-                                        <a href="assets/images/portfolio/thekitondo.png" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                                                   
-                            <!-- VTC -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/vtc.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">VTC Information System</h5>
-                                        <a data-fancybox data-src="#vtc"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            <!-- VTC -->
-
-                             <!-- The Way TRC -->
-                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/the waytrc.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">The Way To Raise A Child CBO</h5>
-                                        <span class="sub-title">The Way To Raise A Child CBO</span>
-                                        <a href="assets/images/portfolio/the waytrc.png" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- IVAMIS -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/ivamis.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">IVA System</h5>
-                                        <a data-fancybox data-src="#Ivamis"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- OK Center -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                
-                                <figure>
-                                    <img src="assets/images/portfolio/ok center.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Osman Kalil Centre</h5>
-                                        <span class="sub-title">Organization for security, peace and mediation in Africa.</span>
-                                        <a href="assets/images/portfolio/ok center.png" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Property Manager -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/property_manager.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Property Manager</h5>
-                                        <a data-fancybox data-src="#property_manager"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Prometheus AI -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/prometheus.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Prometheus AI</h5>
-                                        <a data-fancybox data-src="#prometheusAI"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- WCF -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/wcf.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">World Christian Fellowship</h5>
-                                        <a data-fancybox data-src="#wcf"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Native BeeCare  -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/native_beecare.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Native Becare</h5>
-                                        <span class="sub-title">Beecare appiaries</span>
-                                        <a href="assets/images/portfolio/native_beecare.png" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- iResturant -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/iResturant.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Lite Resturant ERP</h5>
-                                        <a data-fancybox data-src="#iResturant"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- iScheduling -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/iScheduling.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">iScheduling</h5>
-                                        <a data-fancybox data-src="#iScheduling"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Asian Melodies -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/AsianMelodies.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Asian Melodies</h5>
-                                        <a data-fancybox data-src="#AsianMelodies"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- FamersMarketPlatform -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/FarmersMarket.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Online Farmers Marketplace</h5>
-                                        <a data-fancybox data-src="#OnlineFarmersMarketplace"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Poultry Farm -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/PoultryFarm.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Poultry Farm Information System</h5>
-                                        <a data-fancybox data-src="#PoultryFarmIS"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- FamersMarketPlatform -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/RefugeeDMS.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Refugee Documents Information System</h5>
-                                        <a data-fancybox data-src="#RefugeeDMS"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- iBursaries -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/iBursary.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">iBursaries MIS</h5>
-                                        <a data-fancybox data-src="#ibursaries"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                            <!-- Lam Corp Suite -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/lamcorp.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">LAMCorp Suite</h5>
-                                        <a data-fancybox data-src="#lamcorpsuite"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                            <!-- OHCMS -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/ohcms.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Orion Healthcare Information System</h5>
-                                        <a data-fancybox data-src="#ohcms"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                            <!-- Smart Health -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/smarthealth.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Smart Health Consultancy Information System</h5>
-                                        <a data-fancybox data-src="#smart_health"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                            <!-- Nucleus ERP -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/nuclei.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Nucleus SaaS ERP </h5>
-                                        <a href="assets/images/portfolio/nuclei.jpg" data-fancybox data-src="#nuke"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- iCar -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/iCar.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">iCar Rentals Information System</h5>
-                                        <a href="assets/images/portfolio/iCar.jpg" data-fancybox data-src="#icar"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                            <!-- Appointments Manager -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/ams.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">iAppointments Information System</h5>
-                                        <a href="assets/images/portfolio/ams.jpg" data-fancybox data-src="#ams"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                            <!-- UBC Website -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/ubc.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Ukamba Bible College Website</h5>
-                                        <span class="sub-title">Theological Instution</span>
-                                        <a href="assets/images/portfolio/ubc.jpg" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                            <!-- WCF Android Application -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 android_apps">
-                                <figure>
-                                    <img src="assets/images/portfolio/wcf_apk.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">WCF Android Application</h5>
-                                        <a href="assets/images/portfolio/wcf_apk.jpg" data-fancybox
-                                            data-src="#wcf-android"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                             <!-- Red Life Application -->
-                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 android_apps">
-                                <figure>
-                                    <img src="assets/images/portfolio/RedLife.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">RedLife</h5>
-                                        <a href="assets/images/portfolio/RedLife.jpg" data-fancybox
-                                            data-src="#RedLife"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            
-                            <!-- Digital Library -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/Digital_library.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Digital Library</h5>
-                                        <a href="assets/images/portfolio/Digital_library.jpg" data-fancybox
-                                            data-src="#digital_lib"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- iBanking -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/iBanking.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">iBanking Information System</h5>
-                                        <a href="assets/images/portfolio/iBanking.jpg" data-fancybox
-                                            data-src="#iBanking"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Lite Inventory -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/LiteInventory.png" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Software as Service Point Of Sale System</h5>
-                                        <a href="assets/images/portfolio/LiteInventory.png" data-fancybox
-                                            data-src="#LiteInventory"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- KEA Hotels ERP -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/kea.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Software as Service Resturant ERP</h5>
-                                        <a href="assets/images/portfolio/kea.jpg" data-fancybox
-                                            data-src="#kea_hotels"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- UBC Portal -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/ubc_erp.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Tertiary Institutions ERP</h5>
-                                        <a href="assets/images/portfolio/ubc_erp.jpg" data-fancybox
-                                            data-src="#ubc_portal"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Masterpiece -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/pos.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title" align="center">Multi Tenant Point Of Sale System</h5>
-                                        <a href="assets/images/portfolio/pos.jpg" data-fancybox
-                                            data-src="#pos"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Uasin Gishu Cereal Board -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/cb.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Cereal Board MIS</h5>
-                                        <a href="assets/images/portfolio/cb.jpg" data-fancybox
-                                            data-src="#cb"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Ifya HMIS -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 web_based_information_systems">
-                                <figure>
-                                    <img src="assets/images/portfolio/iafya.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">iAfya HMS</h5>
-                                        <a href="assets/images/portfolio/iafya.jpg" data-fancybox
-                                            data-src="#iafya"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            
-                            <!-- Mplayer Android Application -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 android_apps">
-                                <figure>
-                                    <img src="assets/images/portfolio/mplayer.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Mplayer</h5>
-                                        <a href="assets/images/portfolio/mplayer.jpg" data-fancybox
-                                            data-src="#mplayer"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Smart Health Consultancy Android Application -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 android_apps">
-                                <figure>
-                                    <img src="assets/images/portfolio/smart_health.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Smart Health Consultancy Android Application</h5>
-                                        <a href="assets/images/portfolio/smart_health.jpg" data-fancybox
-                                            data-src="#smart_health_android"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                            <!-- Mplayer Website -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/mplayer-site.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Mplayer Landing Website</h5>
-                                        <a href="assets/images/portfolio/mplayer-site.jpg" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Think GTM Ventures Website -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/think_gtm.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">ThinkGTM Ventures</h5>
-                                        <span class="sub-title">Construction Agency</span>
-                                        <a href="assets/images/portfolio/think_gtm.jpg" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <!-- Devlan Solutions -->
-                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 websites">
-                                <figure>
-                                    <img src="assets/images/portfolio/devlan_site.jpg" alt="img04">
-                                    <figcaption class="fig-caption">
-                                        <i class="fa fa-search"></i>
-                                        <h5 class="title">Devlan Solutions LTD</h5>
-                                        <span class="sub-title">ICT Services Private Limited Company
-                                        </span>
-                                        <a href="assets/images/portfolio/devlan_site.jpg" data-fancybox="gallery"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-
-                        </div> <!-- End: .grid .project-gallery -->
-                    </div> <!-- End: .grid .project-gallery -->
-                </div> <!-- End: .part -->
-            </div> <!-- End: .row -->
-        </div>
-
-        <!-- Umanyi Center -->
-        <div class="mh-portfolio-modal" id="umanyi_center">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Makueni Umanyi (Knowledge) Center</h2>
-                        The Makueni Umanyi (Knowledge) Center is an AI-driven, web-based repository designed to showcase the county's service delivery solutions. 
-                        This platform acts as the county's central hub for knowledge, offering seamless access to success stories, innovative approaches, and best practices in service delivery.  
-                        Here, users can explore a rich collection of county knowledge assets, including publications, reports, policy briefs, newsletters, State of the County addresses, 
-                        and various other resources that highlight the county's progress and achievements.
-                        <br>
-                        <div class="mh-about-tag">
-                            <a href="https://umanyi.makueni.go.ke/" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/umanyi_center.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-12 d-md-flex text-center">
+              <div class="copyright-text">
+                <p>
+                  &copy; Copyright <span id="currentYear"></span> RM Template by
+                  <a href="https://regaltheme.com/" target="_blank"
+                    >Regaltheme</a
+                  >
+                </p>
+              </div>
+              <div class="social-links ml-auto">
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  >Instagram</a
+                >
+              </div>
             </div>
+          </div>
         </div>
-
-        <!-- Saas College ERP -->
-        <div class="mh-portfolio-modal" id="college_erp">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">SaaS College ERP</h2>
-                        A SaaS-based College ERP (Enterprise Resource Planning) system is a comprehensive solution designed to streamline and manage all aspects of college administration. 
-                        By adopting a cloud-based ERP platform, educational institutions can enhance their operational efficiency and improve the overall student and faculty experience.
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/college_erp.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ECDE Database -->
-        <div class="mh-portfolio-modal" id="ecde_database">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Government of Makueni County ECDE Database</h2>
-                        The Government of Makueni County ECDE Database is a comprehensive software solution designed to streamline the management of Early Childhood Development Education (ECDE) centers. 
-                        The system provides a centralized platform for recording student and teacher information, tracking attendance, and generating reports. With its user-friendly interface, it simplifies 
-                        the administrative tasks of ECDE centers, ensuring accurate data collection and efficient record-keeping. Features include student enrollment, teacher assignment, and attendance tracking, 
-                        making it easier for ECDE centers to manage their operations and improve the quality of education.
-                        <br>
-                        <div class="mh-about-tag">
-                            <a href="https://ecde.makueni.go.ke/" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/ecde_database.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- PulseCare -->
-        <div class="mh-portfolio-modal" id="pulsecare">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">PulseCare</h2>
-                        PulseCare is a web-based application designed to enhance the patient experience by streamlining hospital booking processes and 
-                        enabling real-time feedback. It addresses common issues faced by patients, such as long waiting times, missed appointments, and 
-                        inadequate communication with healthcare providers. By providing an intuitive platform for scheduling appointments, managing health
-                        records, and facilitating improved communication between patients and doctors, PulseCare increases patient satisfaction and healthcare
-                        system efficiency.
-                        <br>
-                        <div class="mh-about-tag">
-                            <a href="https://github.com/MartMbithi/PulseCare" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/pulse_care.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-         <!-- End Pulsecare -->
-
-        <!-- NCA AIMS -->
-        <div class="mh-portfolio-modal" id="aims">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Assets Information Management System</h2>
-                        The Assets Information Management System is a specialized software solution designed to track, manage, and monitor 
-                        the lifecycle of assets within an organization. The system provides comprehensive functionality for inventory management, 
-                        allowing users to record the acquisition, location, status, and disposal of assets in real time. With its intuitive interface, 
-                        it streamlines asset tracking across departments, improves accountability, and ensures timely maintenance or replacement. 
-                        Features include detailed asset categorization, automated reporting, and audit trails, offering organizations greater transparency
-                        and control over their physical resources.
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/nca_aims.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-
-        <!-- Supplier Registration Portal -->
-        <div class="mh-portfolio-modal" id="iSupplier">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Supplier Registration Portal</h2>
-                        The Government of Makueni County Supplier Registration Portal is a high-tech online hub designed to revolutionize the supplier registration game 
-                        and zap those pesky printing costs. It builds an all-knowing database of suppliers across every category, making decision-making and resource management
-                        a breeze. Plus, it’s like having a supercharged shield against shady practices, ensuring only top-notch, legitimate suppliers get to play. This digital 
-                        upgrade is set to supercharge efficiency, level up fair competition, and turbocharge economic growth in Makueni County!
-                        <br>
-                        <div class="mh-about-tag">
-                            <a href="https://procurement.makueni.go.ke/" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/iSupplier.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- PMTS -->
-        <div class="mh-portfolio-modal" id="PMTS">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Projects Monitoring and Tracking System</h2>
-                            Tired of the old-school way of tracking projects? Say hello to the future with the eRegister! This cutting-edge platform is designed
-                            to keep you in the loop about all official initiatives, project progress, and transparent governance practices.
-                        <br>
-                        <div class="mh-about-tag">
-                            <a href="https://pmts.makueni.go.ke/" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/pmts.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- eREGISTER -->
-        <div class="mh-portfolio-modal" id="eregister">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">eRegister</h2>
-                        <br>
-                        Tired of signing your name on never-ending paperwork? Say hello to eRegister, your new best friend! This slick, futuristic platform takes the hassle
-                        out of event registration. Just whip up an event, generate a QR code, scan it, and voilà—your attendance is automatically logged. It's like having a 
-                        magic wand for registration! ✨📱🔍
-                        <div class="mh-about-tag">
-                            <a href="https://eregister.makueni.go.ke/" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/eregister.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        
-        <!-- Vocational Training College -->
-        <div class="mh-portfolio-modal" id="vtc">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Vocational Training College Information Management System</h2>
-                        In the world of vocational education, managing info smoothly is key to delivering top-notch training and helping students thrive. Enter the 
-                        Information Management System (IMS) for vocational colleges—a supercharged digital sidekick that makes admin tasks a breeze, amps up student 
-                        engagement, and helps you make smart decisions with data power! This all-in-one system is packed with features to smooth out operations and 
-                        create the ultimate learning playground.
-                        <br>
-                        <div class="mh-about-tag">
-                            <a href="https://vtc.makueni.go.ke" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/vtc.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--  -->
-
-        <!-- Property Manager -->
-        <div class="mh-portfolio-modal" id="property_manager">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Property Manager</h2>
-                        A property management system (PMS) is a software platform designed to help property
-                        managers and landlords automate and streamline their daily operations. A PMS typically
-                        includes tools for managing rental properties, tenants, leases, maintenance requests,
-                        accounting, and other related tasks.
-                        <br>
-                        <div class="mh-about-tag">
-                            <a href="https://github.com/MartMbithi/Weekend_Project_X" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/property_manager.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Market Prices Tool -->
-        <div class="mh-portfolio-modal" id="mpt">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Market Prices Tool</h2>
-                        A Market Prices Tool is a software application that provides users with up-to-date and relevant 
-                        information about prices in various markets. It is particularly useful for businesses, investors, 
-                        traders, and consumers who need real-time or historical price data to make informed decisions.
-                        <br>
-                        <div class="mh-about-tag">
-                            <a href="https://soko.makueni.go.ke/market-prices/" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/marketprices.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--  -->
-
-
-        <!-- Ivamis -->
-        <div class="mh-portfolio-modal" id="Ivamis">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">IVA System</h2>
-                        Tired of drowning in paperwork for managing industrial attachments, internships, volunteer gigs, and mentorships? Wave goodbye to the hassle and say hello to the IVA System
-                        Introducing the IVA System - Government of Makueni County's ultimate Internship, Volunteerism, and Mentorship Information System. It's like having a superhero for your paperwork! This all-in-one,
-                        turbo-charged online platform lets you breeze through applications, processing, and management of all your career adventures in one spot. Get ready to tackle your tasks with a smile and leave the paperwork in the dust!
-                        <br>
-                        <div class="mh-about-tag">
-                            <a href="https://ivas.makueni.go.ke" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/ivamis.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Prometheus AI -->
-        <div class="mh-portfolio-modal" id="prometheusAI">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Prometheus AI</h2>
-                            Managing your personal financial transactions, revenue and savings can be a daunting task,
-                            it becomes harder when done by hand. To ease this task, PrometheusAI is a lightweight 
-                            application that automates the process of tracking expenses for you. It comes with a robust
-                            reporting system that generates in-depth reports as required.
-                        <br>
-                        <div class="mh-about-tag">
-                            <a href="https://github.com/MartMbithi/prometheusAI" target="_blank" class="btn btn-fill">Check It Out</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/prometheus.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Cereal Board -->
-        <div class="mh-portfolio-modal" id="cb">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Cereal & Produce Board Management Information System</h2>
-                        Keeping track of Cereal and Produce board data is a difficult endeavor. It becomes significantly 
-                        more difficult when done manually, therefore Cereals and Produce Board Stakeholders made a decision
-                        and decided to implement an Information System to help them automate their data processing procedures.
-                        This system maintains track of all Cereal & Produce Board transactions, activities, and it is outfitted with
-                        a powerful reporting engine that provides detailed information reports as necessary.
-                        <br>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/cb.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- iAFYA HMIS -->
-        <div class="mh-portfolio-modal" id="iafya">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">iAfya HMS</h2>
-                        <div class="mh-about-tag">
-                            It is the new normal to incorporate technology and innovation into healthcare record management.
-                            Many healthcare institutions are investing significant resources and cash to guarantee that they have the most up-to-date data handling systems, therefore phasing out paper work.
-                            To address the aforementioned issue, the iAfya Hospital Management System, a lightweight healthcare information management system, was created. This is a simple system used by low-level healthcare providers and dispensaries to automate data processing activities.
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/iafya.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-   
-        <!-- WCF Details  -->
-        <div class="mh-portfolio-modal" id="wcf">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">WCF - World Christian Fellowship Inc</h2>
-                            This system provides Christians around the
-                            world with a platform where they can engage in activities of divine praise and worship regardless 
-                            of their denomination or country of origin, share uplifting testimonies, and gain empowering insights
-                            without regard to national boundaries, denominational distinctions, or even ethnicity. 
-                        <div class="mh-about-tag">
-                            <a href="https://wcf.co.ke" target="_blank" class="btn btn-fill">Open WCF</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/wcf.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- iResturant Details -->
-        <div class="mh-portfolio-modal" id="iResturant">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Resturant ERP</h2>
-                            iResturant ERP is a lightweight version of <a
-                            href="https://github.com/MartDevelopers-Inc/KEA-Hotel-ERP">
-                            SaaS Hotels ERP</a>. iResturant ERP is a software solution tool developed for Hotel
-                            management and designed for hoteliers to manage their operations in an effective way. It
-                            helps hotelier to manage hotel billing system, reservation system, online hotel booking
-                            system, room status and much more in a single software. It is accessible,
-                            powerful, and provides tools required for large, robust hotel management.
-                        <br>
-                        <a href="https://github.com/MartDevelopers-Inc/iResturant" target="_blank"
-                            class="btn btn-fill">Check it
-                        </a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/iResturant.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- iScheduling -->
-        <div class="mh-portfolio-modal" id="iScheduling">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">iScheduling - Medical Appointments Scheduler</h2>
-                            Managing your own medical appointments is not a simple process.
-                            As a patient, you may even skip appointments because your calendar is disorganized and out of order. 
-                            It's just mayhem. In response to the aforementioned demand, the iScheduling mobile application was created; 
-                            it provides a platform for you to enter your appointments and stay on track by avoiding missing them. 
-                            It also includes a module for medical professionals to plan their appointment calendar. 
-                            This software makes it easier to keep track of your medical appointments. <br><br>
-                        <a href="https://github.com/MartDevelopers-Inc/iScheduling" target="_blank"
-                            class="btn btn-fill">Check it
-                        </a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/iScheduling.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Ibursaries Details  -->
-        <div class="mh-portfolio-modal" id="ibursaries">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">iBursaries</h2>
-                        Management of educational bursaries is a time-consuming and laborious process, given that you must
-                        manually process them because there are inconsistencies, inaccuracies, and even information omissions.
-                        To process them, physical documentation and human effort are necessary. Thanks to the iBursaries MIS,
-                        this entire procedure may be completed online. Applications for bursaries, report generation, and funding
-                        This system now allows for allocations and tracking.
-                        <br><br>
-                        <a href="https://github.com/MartDevelopers-Inc/iBursaries" target="_blank"
-                            class="btn btn-fill">Check it</a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/iBursary.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Lam Corp Suite Details -->
-        <div class="mh-portfolio-modal" id="lamcorpsuite">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">LamCorp Suite mini ERP </h2>
-                            Transparency tracking and monitoring in water point dispensing companies is a tough 
-                            and terrible technique. As an employee in these companies, you must be liable for every 
-                            single gallon of water supplied, and if you do it on paper, the process becomes much more
-                            difficult. The aforementioned issue inspired the development of LamCorp Suite ERP, an
-                            information management system that gives professional tools for monitoring transparency 
-                            and management in water dispensing businesses.
-                        <br><br>
-                        <a href="https://github.com/MartMbithi/LAMCorp" target="_blank" class="btn btn-fill">Check it</a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/lamcorp.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- OHCMS Details -->
-        <div class="mh-portfolio-modal" id="ohcms">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">HealthCare MIS</h2>
-                        <p>
-                            This system was created primarily for healthcare automation. Healthcare MIS is aimed
-                             towards low and middle-income health care clinics and dispensaries. It is outfitted with a 
-                             patient details management module, a staff module, a laboratory module, and a pharmacy module, 
-                             and each module has a robust reporting engine that generates thorough reports as needed.
-                        </p><br>
-                        <a href="https://github.com/MartMbithi/OHCMS" target="_blank" class="btn btn-fill">Check it</a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/ohcms.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Smart Health Consultancy -->
-        <div class="mh-portfolio-modal" id="smart_health">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Smart Health Consultancy</h2>
-                        <p>
-                            Consultations are always important in the medical industry. The standard consultation procedure is
-                            always tedious and time-consuming. Normally, consultations are handled manually; you must physically 
-                            visit the medical officer's office to schedule your consultation.
-                            This leads to the problem of lengthy lines. To address this issue, an automated Smart Health Consultation
-                            application was created, which has significantly reduced these lines because anybody can conduct a consultation from the comfort of their own home using a mobile phone.
-                        </p>
-
-                        <a href="https://github.com/MartDevelopers-Inc/Smart-Health-Consultancy-WebApplication"
-                            target="_blank" class="btn btn-fill">Check it
-                        </a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/smarthealth.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Nucleus ERP -->
-        <div class="mh-portfolio-modal" id="nuke">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Nucleus SaaS ERP</h2>
-                            Enterprise resource planning systems have played critical roles in enterprises, 
-                            automating things, centralizing information, and assisting with information transmission. 
-                            Despite these benefits, these systems come at a cost, which varies depending on their features 
-                            and manufacturers. There are start-ups that cannot afford these pricey ERP systems, which is 
-                            why the Nucleus project was created. It is a free opensource ERP that includes the majority 
-                            of the required ERP functionalities.
-                        <br><br>
-                        <a href="https://github.com/MartMbithi/Nucleus" target="_blank" class="btn btn-fill">Check it</a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/nuclei.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- iCar -->
-        <div class="mh-portfolio-modal" id="icar">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">iCar Rentals MIS</h2>
-                        Car rental is a practice that has existed since the introduction of the motor vehicle.
-                        Many businesses have sprung up to provide similar services to consumers who cannot afford 
-                        to own their own automobiles. They might enjoy riding in the rented autos. Keeping this data
-                        on paper may be rather laborious and time-consuming, but with the help of a Management System,
-                        even clients can hire these automobiles from the comfort of their own homes.
-                        <br><br>
-                        <a href="https://github.com/MartMbithi/LaraCarRentalMS" target="_blank"
-                            class="btn btn-fill">Check it 
-                        </a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/iCar.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Appointments Manager  -->
-        <div class="mh-portfolio-modal" id="ams">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">iAppointments</h2>
-                        Appointments, whether medical, personal, or business, are a part of our daily lives.
-                        Small appointments are simple to manage since you can just jot them down on a piece 
-                        of paper and set a reminder on your smartphone to prevent missing them. Consider this
-                        scenario in a crowded office setting. It is not an efficient manner of handling these 
-                        appointments. This requirement gave rise to the system that manages the appointment problem. 
-                        It allows the user to organize and keep track of their appointments without having to write them
-                        down on paper and set an alarm.
-                        <br><br>
-                        <a href="https://https://github.com/MartMbithi/Appointment_Manager" target="_blank"
-                            class="btn btn-fill">Check It
-                        </a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/ams.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- WCF Android  -->
-        <div class="mh-portfolio-modal" id="wcf-android">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">WCF Mobile Application</h2>
-                            The mission of World Christian Fellowship (WCF), a nonprofit Christian social media network, 
-                            is to bring together all Christians in the world. This system provides Christians around the
-                            world with a platform where they can engage in activities of divine praise and worship regardless 
-                            of their denomination or country of origin, share uplifting testimonies, and gain empowering insights
-                            without regard to national boundaries, denominational distinctions, or even ethnicity.
-                        <br><br>
-                        <a href="https://bit.ly/3vUDGfg" target="_blank" class="btn btn-fill">Download</a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/wcf_apk.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Digital Library -->
-        <div class="mh-portfolio-modal" id="digital_lib">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Digital Library MIS</h2>
-                        Library It's an excellent place. Go to the library if you need a specific reference material.
-                        If you need a book on Thermo-Nuclear Physics, simply go to the library. To manage these libraries
-                        system has to be implemented so this system automates major library operations such as book records
-                        management, cataloguing, lending and returning books, tracking library usage, and it includes a back 
-                        seat advanced reporting engine that drills down your reports to the last detail by providing
-                        detailed reports as librarians request.
-                        <br><br>
-                        <a href="https://github.com/MartMbithi/Digital_Library" target="_blank"
-                            class="btn btn-fill">Check It
-                        </a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/Digital_library.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Health Data Collection Tool -->
-        <div class="mh-portfolio-modal" id="HDCT">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Health Data Collection Tool</h2>
-                        Health data collection serves as a cornerstone for Department of Health Services 
-                        research and practice, facilitating informed decision-making and policy formulation. 
-                        Through systematic gathering and analysis of health-related information, the department
-                        gains valuable insights into population health trends, disease prevalence, and healthcare
-                        utilization patterns.
-                        <br><br>
-                        <a href="https://healthdct.makueni.go.ke/" target="_blank" class="btn btn-fill">Check it</a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/hdct.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- I Banking -->
-        <div class="mh-portfolio-modal" id="iBanking">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">iBanking MIS</h2>
-                            Handling funds using pen and paper is an antiquated method, yet it is preferred by 
-                            most medium and low-level financial professionals - call it table banking. This becomes
-                            problematic when their client base expands to a large size, and they realize that a 
-                            Banking Management System is unavoidable. This system is the panacea for their ailment, 
-                            because it takes care of this problem effectively.
-                        <br><br>
-                        <a href="https://github.com/MartMbithi/iBanking" target="_blank" class="btn btn-fill">Check it</a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/iBanking.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Kea Hotels  -->
-        <div class="mh-portfolio-modal" id="kea_hotels">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Software as Service Resturants ERP</h2>
-                        In the dynamic and fast-paced restaurant industry, efficient management is pivotal for success. 
-                        Software-as-a-Service (SaaS) Enterprise Resource Planning (ERP) systems have emerged as game-changers,
-                        empowering restaurants to streamline operations, enhance customer experiences, and drive profitability.
-                        This transformative technology offers a comprehensive suite of tools tailored to the unique needs of
-                        the restaurant business, ensuring seamless management of various functions from one centralized platform.
-                        <br><br>                        
-                        <a href="https://github.com/MartDevelopers-Inc/KEA-Hotel-ERP" target="_blank"
-                            class="btn btn-fill">Check it
-                        </a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/kea.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mplayer -->
-        <div class="mh-portfolio-modal" id="mplayer">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Mplayer - Android Music Player</h2>
-                        Music, as they say, is a soul calmer; whether it is good or bad depends on how you listen to it.
-                        Having a platform on your smartphone that allows you to be free with your music adds a new level of enjoyment. 
-                        Mplayer provides you with this flexibility. Mplayer is a lightweight music player application for the Android 
-                        operating system that focuses on lightweight execution, simplicity, high performance, and efficiency
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/mplayer.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Anita Mbinya Foundation -->
-        <div class="mh-portfolio-modal" id="anitambinya"
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Anita Mbinya Foundation</h2>
-                        Anita Mbinya Foundation stands as a testament to our unwavering commitment to forging a world where every person is 
-                        granted the chance to flourish. With an unwavering dedication, we illuminate the path toward empowerment and progress, 
-                        serving as a guiding light for those seeking to unlock their full potential. 
-                        <br><br>
-                        <a href="https://anitambinyafoundation.org" target="_blank" class="btn btn-fill">Check It</a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/anitambinya.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Smart Health Consultancy Android  -->
-        <div class="mh-portfolio-modal" id="smart_health_android">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Smart Health Consultancy - Mobile Client</h2>
-                        The standard consultation procedure is
-                        always tedious and time-consuming. Normally, consultations are handled manually; you must physically 
-                        visit the medical officer's office to schedule your consultation.
-                        This leads to the problem of lengthy lines. To address this issue, an automated Smart Health Consultation
-                        application was created, which has significantly reduced these lines because anybody can conduct a consultation from the comfort of their own home using a mobile phone.
-                       <br><br>
-                        <a href="https://github.com/MartDevelopers-Inc/Smart-Health-Consultancy-WebApplication"
-                            target="_blank" class="btn btn-fill">Check it
-                        </a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/smart_health.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tertiary Learning Institutions ERP -->
-        <div class="mh-portfolio-modal" id="ubc_portal">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Tertiary Learning Institutions ERP</h2>
-                        Technology has been used by educational institutions to automate day-to-day activities.
-                        Admissions, intakes, fee payments, teacher responsibilities, class assignments, exam management,
-                        and so forth. This college decided to abandon its traditional method of processing information in 
-                        favor of an ERP, which is why this system exists.
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/ubc_erp.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Multi Tenant Point Of Sale System  -->
-        <div class="mh-portfolio-modal" id="pos">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Multi Tenant Point of Sale System </h2>
-                        In today's vastly expanding world, it's difficult to keep track of your sales, inventory, 
-                        transactions, and even your clients' information if you're a business owner. Implementing 
-                        a Point of Sale system guarantees that information flows smoothly in your bazaar. 
-                        This technology automates everything,thus phasing out handwritten receipts.
-                        Stock deductions are performed automatically, and additional specific reports are supplied as needed.
-                        There's no need to go through old dusty receipt books hidden in a dark cupboard in your shop's basement. 
-                        By using this system, your business is no longer on dark ages, it will enter the age of technological enlightenment.
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/pos.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Poultry Farm Information System -->
-        <div class="mh-portfolio-modal" id="PoultryFarmIS">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Poultry Farm Information System</h2>
-                        Everyone might decide to start a poultry farm, whether they are beginners or experienced farmers, 
-                        but the way they conduct their paperwork and managerial operations distinguishes one from the other.
-                        Automating information processing in the poultry farming sector is a critical step that everyone 
-                        considering a career in poultry farming should take into account. This niche necessitates the 
-                        implementation of a system. This is a full-featured system with an easy-to-use interface for managing
-                        your poultry information visually.
-                        <br><br>                
-                        <a href="https://github.com/MartMbithi/Weekend_Project_III" target="_blank" class="btn btn-fill">Check It</a>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/PoultryFarm.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Asian Melodies -->
-        <div class="mh-portfolio-modal" id="AsianMelodies">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Asian Melodies Dating Platform</h2>
-                        We are all mortals; we need affection, we need to feel the hug of our loved ones, we need to be loved,
-                        and we need to heal our loneliness by finding new companions who share our interests. Nowadays, 
-                        the dating industry is full of scammers and con artists that seek to take advantage of your emotions.
-                        Worry not, since this platform will bring your sad soul together with your counterpart and allow you 
-                        to experience the joys of love and devotion.
-                        <br><br>
-                        <a href="https://github.com/MartMbithi/AM_WebVersion" target="_blank" class="btn btn-fill">Check It</a>
-                        <br>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/AsianMelodies.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Online Farmers Mktp -->
-        <div class="mh-portfolio-modal" id="OnlineFarmersMarketplace">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Farmers Marketplace Platform</h2>
-                            Working on your farm is not as upsetting as witnessing your agricultural products go to waste due
-                            to a lack of a market. Finding a ready market for your products might be difficult, 
-                            but this platform provides an online marketplace where small scale farmers can sell their 
-                            fresh farm food straight to their clients.
-                        <br><br>
-                        <a href="https://github.com/MartMbithi/Weekend_Project_VI" target="_blank" class="btn btn-fill">Check It</a>
-                        <br>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/FarmersMarket.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Refugee DMS -->
-        <div class="mh-portfolio-modal" id="RefugeeDMS">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Refugee Documents MIS</h2>
-                        Being uprooted from your own nation or place of residence due to political, natural, or personal 
-                        reasons might be unpleasant, but not as frustrating as personally processing refugee paperwork. 
-                        It's a time-consuming and exhausting task. As a result, a system has been developed for a humanitarian
-                        NGO to automate this crisis and simplify the verification of refugee documents.                        
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/RefugeeDMS.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Redlife DMS -->
-        <div class="mh-portfolio-modal" id="RedLife">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">RedLife</h2>
-                        Life, as valuable as it is, must be handled with care. This occurs when a specific individual need an ambulance for a medical emergency.
-                        Red Life Emergency Management System is an online-based system for booking ambulances with real-time estimate response and providing
-                        specialized transport facilities to move people in need of emergency medical treatment, as well as reporting and responding quickly to requests for assistance in a medical emergency.
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/RedLife.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Software As Service Point Of Sale System -->
-        <div class="mh-portfolio-modal" id="LiteInventory">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">Software As Service Point of Sale System </h2>
-                        In today's rapidly evolving business landscape, adopting innovative technologies is crucial for
-                        staying competitive and enhancing operational efficiency. One such transformative solution is 
-                        the Software-as-a-Service (SaaS) Point of Sale (POS) system. This cloud-based solution has 
-                        revolutionized traditional retail operations by offering a range of benefits that empower 
-                        businesses to optimize their processes, improve customer experiences, and drive growth.
-                        <br><br>
-                        <a href="https://github.com/MartDevelopers-Inc/lite_inventory" target="_blank" class="btn btn-fill">Check It</a>
-                        <br>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/inventory.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ECDE Saas Database -->
-        <div class="mh-portfolio-modal" id="ecde">
-            <div class="container">
-                <div class="row mh-portfolio-modal-inner">
-                    <div class="col-sm-5">
-                        <h2 align="center">ECDE SaaS ERP</h2>
-                            Makueni County is dedicated to early childhood development as a foundation for lifelong success, providing safe, inclusive, and
-                            stimulating environments across 1,430 ECDE centers. The program combines modern teaching methods, holistic care, and community 
-                            engagement, led by skilled professionals committed to nurturing each child's potential. The implemented SaaS ECDE ERP enhances
-                            operations by centralizing data, improving communication, and supporting efficient administration, enabling educators to focus
-                            more on fostering students' growth and development.
-                        <br><br>
-                        <a href="https://ecde.makueni.go.ke" target="_blank" class="btn btn-fill">Check It</a>
-                        <br>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="mh-portfolio-modal-img">
-                            <img src="assets/images/portfolio/ecde_database.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-
-    <!--
-    ===================
-        FOOTER 
-    ===================
-    -->
-    <footer class="mh-footer mh-footer-3" id="mh-contact">
-        <div class="container-fluid">
-            <div class="row section-separator">
-                <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                    <h3 class="text-success">Contact Me</h3>
-                </div>
-                <div class="map-image image-bg col-sm-12">
-                    <div class="container mt-30">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12 mh-footer-address">
-                                <div class="col-sm-12 xs-no-padding">
-                                    <div class="mh-address-footer-item media dark-bg shadow-1 wow fadeInUp"
-                                        data-wow-duration="0.8s" data-wow-delay="0.4s">
-                                        <div class="each-icon">
-                                            <i class="fa fa-phone"></i>
-                                        </div>
-                                        <div class="each-info media-body">
-                                            <h4>Tel</h4>
-                                            <a href="tel:+254740847563">+254 740 847 563</a><br>
-                                        </div>
-                                    </div>
-                                    <div class="mh-address-footer-item media dark-bg shadow-1 wow fadeInUp"
-                                        data-wow-duration="0.8s" data-wow-delay="0.4s">
-                                        <div class="each-icon">
-                                            <i class="fa fa-envelope-o"></i>
-                                        </div>
-                                        <div class="each-info media-body">
-                                            <h4>Email</h4>
-                                            <a href="mailto:martinezmbithi@gmail.com">martinezmbithi@gmail.com</a><br>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s"
-                                data-wow-delay="0.2s">
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="text-center">
-                                            <p>Crafted with <i class="fa fa-heart text-danger"></i> by Martin Mbithi </i> <br> A <a target="_blank" href="https://devlan.co.ke">Devlan Solutions LTD</a> Production</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </footer>
 
-    <!--
-    ==============
-    * JS Files *
-    ==============
-    -->
+    <!-- All JS Here -->
+    <!-- jQuery Latest Version -->
+    <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="assets/js/plugins.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-    <!-- jQuery -->
-    <script src="assets/plugins/js/jquery.min.js"></script>
-    <!-- popper -->
-    <script src="assets/plugins/js/popper.min.js"></script>
-    <!-- bootstrap -->
-    <script src="assets/plugins/js/bootstrap.min.js"></script>
-    <!-- owl carousel -->
-    <script src="assets/plugins/js/owl.carousel.js"></script>
-    <!-- validator -->
-    <script src="assets/plugins/js/validator.min.js"></script>
-    <!-- wow -->
-    <script src="assets/plugins/js/wow.min.js"></script>
-    <!-- mixin js-->
-    <script src="assets/plugins/js/jquery.mixitup.min.js"></script>
-    <!-- circle progress-->
-    <script src="assets/plugins/js/circle-progress.js"></script>
-    <!-- jquery nav -->
-    <script src="assets/plugins/js/jquery.nav.js"></script>
-    <!-- Fancybox js-->
-    <script src="assets/plugins/js/jquery.fancybox.min.js"></script>
-    <!-- isotope js-->
-    <script src="assets/plugins/js/isotope.pkgd.js"></script>
-    <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
-    <script src="assets/js/custom-scripts.js"></script>
-
-
+  <!-- Mirrored from regaltheme.com/tf/multi/rm/rm/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Jan 2025 06:23:46 GMT -->
 </html>
