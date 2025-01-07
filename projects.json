@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Business Card",
+        "description": "Branding",
+        "link": "portfolio/details-2.html",
+        "image": "assets/img/portfolio/style2/1.jpg"
+    },
+    {
+        "title": "Project Two",
+        "description": "Web Development",
+        "link": "portfolio/details-2.html",
+        "image": "assets/img/portfolio/style2/2.jpg"
+    },
+    {
+        "title": "Project Three",
+        "description": "Mobile App Design",
+        "link": "portfolio/details-2.html",
+        "image": "assets/img/portfolio/style2/3.jpg"
+    },
+    {
+        "title": "Project Four",
+        "description": "UI/UX Design",
+        "link": "portfolio/details-2.html",
+        "image": "assets/img/portfolio/style2/4.jpg"
+    }
+]
