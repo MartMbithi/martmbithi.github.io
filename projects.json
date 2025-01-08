@@ -18,6 +18,18 @@
         "image": "assets/img/portfolio/ubc_erp.jpg"
     },
     {
+        "title": "PMTS",
+        "description": "Makueni County Projects Monitoring & Tracking System",
+        "link": "https://pmts.makueni.go.ke/",
+        "image": "assets/img/portfolio/pmts.png"
+    },
+    {
+        "title": "Umanyi Centre",
+        "description": "Makueni County Knowledge Management System",
+        "link": "https://umanyi.makueni.go.ke/",
+        "image": "assets/img/portfolio/umanyi_center.png"
+    },
+    {
         "title": "VTC SaaS ERP",
         "description": "Makueni County Vocational Training Centre SaaS ERP",
         "link": "https://vtc.makueni.go.ke/",
