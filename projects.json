@@ -18,6 +18,12 @@
         "image": "assets/img/portfolio/ubc_erp.jpg"
     },
     {
+        "title": "Destination Makueni",
+        "description": "Destination Makueni Tourism, Hospitality Booking System",
+        "link": "https://destinationmakueni.com/",
+        "image": "assets/img/portfolio/destination-makueni.png"
+    },
+    {
         "title": "PMTS",
         "description": "Makueni County Projects Monitoring & Tracking System",
         "link": "https://pmts.makueni.go.ke/",
