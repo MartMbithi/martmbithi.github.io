@@ -1,5 +1,5 @@
 let currentIndex = 0; // Keeps track of the current index of the projects to be displayed
-const projectsPerLoad = 6; // Number of projects to load per click
+const projectsPerLoad = 1000; // Number of projects to load per click
 
 // Function to fetch JSON data and render projects
 function loadProjects() {

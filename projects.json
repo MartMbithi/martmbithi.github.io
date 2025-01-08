@@ -1,26 +1,81 @@
 [
     {
-        "title": "Business Card",
-        "description": "Branding",
-        "link": "portfolio/details-2.html",
-        "image": "assets/img/portfolio/style2/1.jpg"
+        "title": "Anita Mbinya Foundation",
+        "description": "Website for Anita Mbinya Foundation",
+        "link": "https://anitambinyafoundation.org/",
+        "image": "assets/img/portfolio/anitambinya.jpg"
     },
     {
-        "title": "Project Two",
-        "description": "Web Development",
-        "link": "portfolio/details-2.html",
-        "image": "assets/img/portfolio/style2/2.jpg"
+        "title": "Devlan Solutions LTD",
+        "description": "Website for Devlan Solutions LTD",
+        "link": "https://devlan.co.ke/",
+        "image": "assets/img/portfolio/devlan_site.jpg"
     },
     {
-        "title": "Project Three",
-        "description": "Mobile App Design",
-        "link": "portfolio/details-2.html",
-        "image": "assets/img/portfolio/style2/3.jpg"
+        "title": "VTC SaaS ERP",
+        "description": "Makueni County Vocational Training Centre SaaS ERP",
+        "link": "https://vtc.makueni.go.ke/",
+        "image": "assets/img/portfolio/vtc.png"
     },
     {
-        "title": "Project Four",
-        "description": "UI/UX Design",
-        "link": "portfolio/details-2.html",
-        "image": "assets/img/portfolio/style2/4.jpg"
+        "title": "AIMS",
+        "description": "NCA Assets and Inventory Management System",
+        "link": "https://nca.go.ke/",
+        "image": "assets/img/portfolio/nca_aims.png"
+    },
+    {
+        "title": "Makueni Crestwood College SaaS ERP",
+        "description": "School Management System for Makueni Crestwood College",
+        "link": "https://tmcc-mis.devlan.co.ke/",
+        "image": "assets/img/portfolio/college_erp.png"
+    },
+    {
+        "title": "Makueni County ECDE MIS",
+        "description": "ECDE Management Information System for Makueni County",
+        "link": "https://ecde.makueni.go.ke/",
+        "image": "assets/img/portfolio/ecde_database.png"
+    },
+    {
+        "title": "eRegister",
+        "description": "Automated eAttendance System for Makueni County",
+        "link": "https://eregister.makueni.go.ke/",
+        "image": "assets/img/portfolio/eregister.png"
+    },
+    {
+        "title": "Supplier Registration Portal",
+        "description": "SaaS Supplier Registration & Prequalification Portal for Makueni County",
+        "link": "https://procurement.makueni.go.ke/views/",
+        "image": "assets/img/portfolio/iSupplier.png"
+    },
+    {
+        "title": "IVA System",
+        "description": "Makueni County Internship Volunteerism & Attachment Portal",
+        "link": "https://ivas.makueni.go.ke/",
+        "image": "assets/img/portfolio/ivamis.png"
+    },
+    {
+        "title": "CIC MIS",
+        "description": "Makueni County Community Information Centres MIS ",
+        "link": "https://cic.makueni.go.ke",
+        "image": "assets/img/portfolio/makueni_cic_mis.png"
+    },
+    {
+        "title": "KibMawasco Website",
+        "description": "Kibwezi-Makindu Water & Sewerage Company Website",
+        "link": "https://https://kibmawasco.com/",
+        "image": "assets/img/portfolio/kibmawasco.png"
+    },
+    {
+        "title": "Lite Inventory",
+        "description": "Lightweight yet powerful inventory management system",
+        "link": "https://github.com/MartDevelopers-Inc/lite_inventory",
+        "image": "assets/img/portfolio/LiteInventory.png"
+    },
+    {
+        "title": "Native Beecare",
+        "description": "Website for NativeBeecare",
+        "link": "https://nativebeecare.co.ke/",
+        "image": "assets/img/portfolio/native_beecare.png"
     }
+
 ]
