@@ -12,6 +12,12 @@
         "image": "assets/img/portfolio/devlan_site.jpg"
     },
     {
+        "title": "Ukamba Bible College  ERP",
+        "description": "SaaS ERP for Ukamba Bible College",
+        "link": "https://ubc.co.ke/",
+        "image": "assets/img/portfolio/ubc_erp.jpg"
+    },
+    {
         "title": "VTC SaaS ERP",
         "description": "Makueni County Vocational Training Centre SaaS ERP",
         "link": "https://vtc.makueni.go.ke/",
@@ -76,6 +82,35 @@
         "description": "Website for NativeBeecare",
         "link": "https://nativebeecare.co.ke/",
         "image": "assets/img/portfolio/native_beecare.png"
+    },
+    {
+        "title": "Makueni Boys High School",
+        "description": "Website for Makueni Boys High School",
+        "link": "https://www.makueniboys.sc.ke/",
+        "image": "assets/img/portfolio/makueni boys.png"
+    },
+    {
+        "title": "The Kitondo School",
+        "description": "Website for The Kitondo School",
+        "link": "https://thekitondoschool.sc.ke/",
+        "image": "assets/img/portfolio/thekitondo.png"
+    },
+    {
+        "title": "Tana Solutions LTD",
+        "description": "Website for Tana Solutions LTD",
+        "link": "https://tanasolutions.co.ke/",
+        "image": "assets/img/portfolio/tana_solutions_ltd.png"
+    },
+    {
+        "title": "The Way To Raise A Child CBO",
+        "description": "Website for a CBO",
+        "link": "https://thewaytraining-child.co.ke/",
+        "image": "assets/img/portfolio/the waytrc.png"
+    },
+    {
+        "title": "Ukamba Bible College  Website",
+        "description": "Website for Ukamba Bible College",
+        "link": "https://ubc.co.ke/",
+        "image": "assets/img/portfolio/ubc.jpg"
     }
-
 ]
