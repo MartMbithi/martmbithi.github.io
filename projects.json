@@ -1,9 +1,21 @@
 [
     {
         "title": "Soo TV",
-        "description": "Blogging Site",
+        "description": "Soo TV delivers breaking news, deep-dive stories, entertainment, and thought-provoking content tailored for today's audience. Stay informed and inspired.",
         "link": "https://sootv.co.ke/",
-        "image": "assets/img/portfolio/anitambinya.jpg"
+        "image": "assets/img/portfolio/soo_tv.png"
+    },
+    {
+        "title": "Destination Makueni",
+        "description": "Destination Makueni Tourism, Hospitality Booking System",
+        "link": "https://destinationmakueni.com/",
+        "image": "assets/img/portfolio/destination-makueni.png"
+    },
+    {
+        "title": "PMTS",
+        "description": "Makueni County Projects Monitoring & Tracking System",
+        "link": "https://pmts.makueni.go.ke/",
+        "image": "assets/img/portfolio/pmts.png"
     },
     {
         "title": "Anita Mbinya Foundation",
@@ -22,18 +34,6 @@
         "description": "SaaS ERP for Ukamba Bible College",
         "link": "https://ubc.co.ke/",
         "image": "assets/img/portfolio/ubc_erp.jpg"
-    },
-    {
-        "title": "Destination Makueni",
-        "description": "Destination Makueni Tourism, Hospitality Booking System",
-        "link": "https://destinationmakueni.com/",
-        "image": "assets/img/portfolio/destination-makueni.png"
-    },
-    {
-        "title": "PMTS",
-        "description": "Makueni County Projects Monitoring & Tracking System",
-        "link": "https://pmts.makueni.go.ke/",
-        "image": "assets/img/portfolio/pmts.png"
     },
     {
         "title": "Umanyi Centre",
@@ -124,12 +124,6 @@
         "description": "Website for Tana Solutions LTD",
         "link": "https://tanasolutions.co.ke/",
         "image": "assets/img/portfolio/tana_solutions_ltd.png"
-    },
-    {
-        "title": "The Way To Raise A Child CBO",
-        "description": "Website for a CBO",
-        "link": "https://thewaytraining-child.co.ke/",
-        "image": "assets/img/portfolio/the waytrc.png"
     },
     {
         "title": "Ukamba Bible College  Website",
