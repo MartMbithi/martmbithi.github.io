@@ -131,10 +131,16 @@
         "link": "https://ubc.co.ke/",
         "image": "assets/img/portfolio/ubc.jpg"
     },
-     {
+    {
         "title": "Crib360",
         "description": "Simplifying Property Management Across Kenya",
         "link": "https://crib360.devlan.co.ke",
         "image": "assets/img/portfolio/crib360.png"
+    },
+    {
+        "title": "Kibwezi Teachers & Institute of Professional Studies MIS",
+        "description": "End to end MIS Solutions for colleges",
+        "link": "https://kibweziteachers.com",
+        "image": "assets/img/portfolio/kibwezi.png"
     }
 ]
