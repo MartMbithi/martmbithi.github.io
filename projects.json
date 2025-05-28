@@ -130,5 +130,11 @@
         "description": "Website for Ukamba Bible College",
         "link": "https://ubc.co.ke/",
         "image": "assets/img/portfolio/ubc.jpg"
+    },
+     {
+        "title": "Crib360",
+        "description": "Simplifying Property Management Across Kenya",
+        "link": "https://crib360.devlan.co.ke",
+        "image": "assets/img/portfolio/crib360.png"
     }
 ]
