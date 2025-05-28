@@ -1,5 +1,11 @@
 [
     {
+        "title": "Soo TV",
+        "description": "Blogging Site",
+        "link": "https://sootv.co.ke/",
+        "image": "assets/img/portfolio/anitambinya.jpg"
+    },
+    {
         "title": "Anita Mbinya Foundation",
         "description": "Website for Anita Mbinya Foundation",
         "link": "https://anitambinyafoundation.org/",
