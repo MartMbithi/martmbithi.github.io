@@ -1,157 +1,157 @@
 [
     {
-        "title": "AIMS",
-        "description": "NCA Assets and Inventory Management System",
+        "title": "AIMS – Asset & Inventory Management System Kenya",
+        "description": "Track, manage, and monitor government assets and inventory with the National Construction Authority AIMS platform.",
         "link": "https://nca.go.ke/",
         "image": "assets/img/portfolio/nca_aims.webp"
     },
     {
-        "title": "Anita Mbinya Foundation",
-        "description": "Website for Anita Mbinya Foundation",
+        "title": "Anita Mbinya Foundation – Women & Youth Empowerment in Kenya",
+        "description": "Official website of Anita Mbinya Foundation, focused on empowering women, youth, and vulnerable communities across Kenya.",
         "link": "https://anitambinyafoundation.org/",
         "image": "assets/img/portfolio/anitambinya.webp"
     },
     {
-        "title": "CIC MIS",
-        "description": "Makueni County Community Information Centres MIS ",
+        "title": "CIC MIS – Community Information Centres Management System",
+        "description": "Makueni County’s centralized digital platform for managing community ICT hubs, knowledge, and citizen engagement.",
         "link": "https://cic.makueni.go.ke",
         "image": "assets/img/portfolio/makueni_cic_mis.webp"
     },
     {
-        "title": "Crib360",
-        "description": "Simplifying Property Management Across Kenya",
+        "title": "Crib360 – Kenya Real Estate & Property Management Platform",
+        "description": "Crib360 simplifies real estate and rental management in Kenya with automated invoicing, leases, and tenant portals.",
         "link": "https://crib360.devlan.co.ke",
         "image": "assets/img/portfolio/crib360.webp"
     },
     {
-        "title": "Destination Makueni",
-        "description": "Destination Makueni Tourism, Hospitality Booking System",
+        "title": "Destination Makueni – Tourism & Hospitality Booking Portal",
+        "description": "Explore, book, and discover tourist attractions in Makueni County through this intuitive tourism management system.",
         "link": "https://destinationmakueni.com/",
         "image": "assets/img/portfolio/destination-makueni.webp"
     },
     {
-        "title": "Devlan Solutions LTD",
-        "description": "Website for Devlan Solutions LTD",
+        "title": "Devlan Solutions LTD – Kenyan Software Development Agency",
+        "description": "Full-service tech company offering ERP systems, web apps, SaaS platforms, and custom software solutions in Kenya.",
         "link": "https://devlan.co.ke/",
         "image": "assets/img/portfolio/devlan_site.webp"
     },
     {
-        "title": "ECDE MIS",
-        "description": "ECDE Management Information System for Makueni County",
+        "title": "ECDE MIS – Early Childhood Development Education MIS",
+        "description": "Digitized system for managing ECDE centers, tracking learners, teachers, and infrastructure in Makueni County.",
         "link": "https://ecde.makueni.go.ke/",
         "image": "assets/img/portfolio/ecde_database.webp"
     },
     {
-        "title": "Emuki Bees Hub",
-        "description": "We are transforming lives through sustainable beekeeping in Kenya.",
+        "title": "Emuki Bees Hub – Beekeeping Training & Honey Production Kenya",
+        "description": "Transforming rural livelihoods through sustainable apiculture, honey processing, and bee product commercialization.",
         "link": "https://emukibeeshub.co.ke/",
         "image": "assets/img/portfolio/emuki_bees_hub.webp"
     },
     {
-        "title": "eRegister",
-        "description": "Automated eAttendance System for Makueni County",
+        "title": "eRegister – Biometric Staff Attendance System",
+        "description": "Automated digital attendance system for public staff using biometrics and real-time data tracking.",
         "link": "https://eregister.makueni.go.ke/",
         "image": "assets/img/portfolio/eregister.webp"
     },
     {
-        "title": "IVA System",
-        "description": "Makueni County Internship Volunteerism & Attachment Portal",
+        "title": "IVA System – Makueni Internship & Volunteer Application Portal",
+        "description": "Apply for internships, attachments, and volunteer opportunities via Makueni County’s IVA management system.",
         "link": "https://ivas.makueni.go.ke/",
         "image": "assets/img/portfolio/ivamis.webp"
     },
     {
-        "title": "KibMawasco Website",
-        "description": "Kibwezi-Makindu Water & Sewerage Company Website",
+        "title": "KibMawasco – Kibwezi-Makindu Water Company Website",
+        "description": "Official portal for Kibwezi-Makindu Water & Sewerage Company: customer care, billing, and service info.",
         "link": "https://https://kibmawasco.com/",
         "image": "assets/img/portfolio/kibmawasco.webp"
     },
     {
-        "title": "Kibwezi Teachers & Institute of Professional Studies MIS",
-        "description": "End to end MIS Solutions for colleges",
+        "title": "Kibwezi Teachers & IPS – College MIS System Kenya",
+        "description": "End-to-end education management system for colleges offering academic, finance, and student portal solutions.",
         "link": "https://kibweziteachers.com",
         "image": "assets/img/portfolio/kibwezi.webp"
     },
     {
-        "title": "Lite Inventory",
-        "description": "Lightweight yet powerful inventory management system",
+        "title": "Lite Inventory – Simple Inventory Management Software",
+        "description": "Open-source, lightweight inventory system built for small businesses and warehouses in Kenya and beyond.",
         "link": "https://github.com/MartDevelopers-Inc/lite_inventory",
         "image": "assets/img/portfolio/LiteInventory.webp"
     },
     {
-        "title": "Makueni Boys High School",
-        "description": "Website for Makueni Boys High School",
+        "title": "Makueni Boys High School – Official School Website",
+        "description": "Top national school in Kenya committed to academic excellence, discipline, and holistic student development.",
         "link": "https://www.makueniboys.sc.ke/",
         "image": "assets/img/portfolio/makueni boys.webp"
     },
     {
-        "title": "Makueni Crestwood College SaaS ERP",
-        "description": "School Management System for Makueni Crestwood College",
+        "title": "Makueni Crestwood College – ERP for School Management",
+        "description": "School Management ERP offering admissions, fees, attendance, academics, and communication modules.",
         "link": "https://tmcc-mis.devlan.co.ke/",
         "image": "assets/img/portfolio/college_erp.webp"
     },
     {
-        "title": "Native Beecare",
-        "description": "Website for NativeBeecare",
+        "title": "Native Beecare – Natural Honey & Beekeeping Services Kenya",
+        "description": "Eco-friendly beekeeping enterprise promoting organic honey production and pollination services in Kenya.",
         "link": "https://nativebeecare.co.ke/",
         "image": "assets/img/portfolio/native_beecare.webp"
     },
     {
-        "title": "PMTS",
-        "description": "Makueni County Projects Monitoring & Tracking System",
+        "title": "PMTS – Projects Monitoring & Tracking System",
+        "description": "Track development projects in Makueni County via real-time dashboards, GIS maps, and performance analytics.",
         "link": "https://pmts.makueni.go.ke/",
         "image": "assets/img/portfolio/pmts.webp"
     },
     {
-        "title": "Soo TV",
-        "description": "Soo TV delivers breaking news, deep-dive stories, entertainment, and thought-provoking content tailored for today's audience. Stay informed and inspired.",
+        "title": "Soo TV – Kenyan Digital News & Media Channel",
+        "description": "Watch breaking news, lifestyle shows, and documentaries with Soo TV – Kenya’s next-gen media platform.",
         "link": "https://sootv.co.ke/",
         "image": "assets/img/portfolio/soo_tv.webp"
     },
     {
-        "title": "Supplier Registration Portal",
-        "description": "SaaS Supplier Registration & Prequalification Portal for Makueni County",
+        "title": "Supplier Registration Portal – Makueni County Procurement SaaS",
+        "description": "Online vendor registration, prequalification, and tendering platform for transparent county procurement.",
         "link": "https://procurement.makueni.go.ke/views/",
         "image": "assets/img/portfolio/iSupplier.webp"
     },
     {
-        "title": "Tana Solutions LTD",
-        "description": "Website for Tana Solutions LTD",
+        "title": "Tana Solutions LTD – Business Tech Consulting Firm Kenya",
+        "description": "Leading provider of ICT consultancy, custom software, and enterprise digital solutions in Kenya.",
         "link": "https://tanasolutions.co.ke/",
         "image": "assets/img/portfolio/tana_solutions_ltd.webp"
     },
     {
-        "title": "The Kitondo School",
-        "description": "Website for The Kitondo School",
+        "title": "The Kitondo School – Premier Boys Secondary School Kenya",
+        "description": "Kitondo School offers holistic education, strong discipline, and national academic excellence.",
         "link": "https://thekitondoschool.sc.ke/",
         "image": "assets/img/portfolio/thekitondo.webp"
     },
     {
-        "title": "The Masinga School",
-        "description": "Masinga Boys High School – a leading institution in Kenya committed to academic and personal excellence",
+        "title": "The Masinga School – Boys High School Kenya",
+        "description": "Official site of Masinga Boys High School, renowned for top KCSE performance and leadership molding.",
         "link": "https://masingaboys.sc.ke/",
         "image": "assets/img/portfolio/masinga_boys.webp"
     },
     {
-        "title": "Ukamba Bible College  ERP",
-        "description": "SaaS ERP for Ukamba Bible College",
+        "title": "Ukamba Bible College – ERP for Christian Institutions",
+        "description": "Custom-built SaaS ERP to manage courses, finances, and students at Ukamba Bible College.",
         "link": "https://ubc.co.ke/",
         "image": "assets/img/portfolio/ubc_erp.webp"
     },
     {
-        "title": "Ukamba Bible College  Website",
-        "description": "Website for Ukamba Bible College",
+        "title": "Ukamba Bible College Website – Official College Portal",
+        "description": "Explore courses, admission info, and theological training at Ukamba Bible College, Kenya.",
         "link": "https://ubc.co.ke/",
         "image": "assets/img/portfolio/ubc.webp"
     },
     {
-        "title": "Umanyi Centre",
-        "description": "Makueni County Knowledge Management System",
+        "title": "Umanyi Centre – Knowledge Management System Kenya",
+        "description": "Digital knowledge hub for storing, sharing, and managing institutional memory in Makueni County.",
         "link": "https://umanyi.makueni.go.ke/",
         "image": "assets/img/portfolio/umanyi_center.webp"
     },
     {
-        "title": "VTC SaaS ERP",
-        "description": "Makueni County Vocational Training Centre SaaS ERP",
+        "title": "VTC SaaS ERP – Vocational Training Centre Management",
+        "description": "Robust SaaS ERP for managing vocational education, TVET curriculum, and student life-cycle.",
         "link": "https://vtc.makueni.go.ke/",
         "image": "assets/img/portfolio/vtc.webp"
     }
