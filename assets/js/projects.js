@@ -35,11 +35,11 @@ function loadProjects() {
             <div class="single-portfolio position-relative text-center">
               <img src="${project.image}" alt="Thumbnail" class="img-fluid" />
               <div class="portfolio-title bg-white rgb-85 d-flex flex-column justify-content-center">
-                <a href="${project.link}">
+                <a href="${project.link}" target="_blank">
                   <h3>${project.title}</h3>
                 </a>
                 <h5>${project.description}</h5>
-                <a href="${project.link}"><i class="ti-arrow-right"></i></a>
+                <a href="${project.link}" target="_blank"><i class="ti-arrow-right"></i></a>
               </div>
             </div>
           `;
