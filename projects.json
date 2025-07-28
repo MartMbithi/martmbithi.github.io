@@ -84,12 +84,6 @@
         "image": "assets/img/portfolio/makueni boys.webp"
     },
     {
-        "title": "Makueni County ECDE MIS",
-        "description": "ECDE Management Information System for Makueni County",
-        "link": "https://ecde.makueni.go.ke/",
-        "image": "assets/img/portfolio/ecde_database.webp"
-    },
-    {
         "title": "Makueni Crestwood College SaaS ERP",
         "description": "School Management System for Makueni Crestwood College",
         "link": "https://tmcc-mis.devlan.co.ke/",
