@@ -42,6 +42,12 @@
         "image": "assets/img/portfolio/ecde_database.png"
     },
     {
+        "title": "Emuki Bees Hub",
+        "description": "We are transforming lives through sustainable beekeeping in Kenya.",
+        "link": "https://emukibeeshub.co.ke/",
+        "image": "assets/img/portfolio/emuki_bees_hub.png"
+    },
+    {
         "title": "eRegister",
         "description": "Automated eAttendance System for Makueni County",
         "link": "https://eregister.makueni.go.ke/",
