@@ -29,7 +29,7 @@ function loadProjects() {
 
           // Create the project element
           const projectElement = document.createElement("div");
-          projectElement.classList.add("col-lg-4", "col-md-6", "col-sm-12", "mb-4");
+          projectElement.classList.add("col-lg-6", "col-md-6", "col-sm-12", "mb-4");
 
           projectElement.innerHTML = `
             <div class="single-portfolio position-relative text-center">
