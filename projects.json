@@ -132,6 +132,12 @@
         "image": "assets/img/portfolio/masinga_boys.webp"
     },
     {
+        "title": "St Martin Kathonzweni Boys – Boys High School Kenya",
+        "description": "Official site of St Martin Kathonzweni Boys, A leading STEM-focused extra-county school in Makueni, nurturing discipline, knowledge, and moral values for success in KCSE and beyond.",
+        "link": "https://stmartinkathonweni.sc.ke/",
+        "image": "assets/img/portfolio/kathonzweni_boys.webp"
+    },
+    {
         "title": "Ukamba Bible College – ERP for Christian Institutions",
         "description": "Custom-built SaaS ERP to manage courses, finances, and students at Ukamba Bible College.",
         "link": "https://ubc.co.ke/",
