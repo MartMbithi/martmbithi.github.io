@@ -6,6 +6,12 @@
         "image": "assets/img/portfolio/nca_aims.webp"
     },
     {
+        "title": "CIFMIS – Government of Makueni County Integrated Finance Management System",
+        "description": "Driving efficiency, transparency and accountability in public finance management",
+        "link": "https://cifmis.makueni.go.ke",
+        "image": "assets/img/portfolio/cifmis.webp"
+    },
+    {
         "title": "Anita Mbinya Foundation – Women & Youth Empowerment in Kenya",
         "description": "Official website of Anita Mbinya Foundation, focused on empowering women, youth, and vulnerable communities across Kenya.",
         "link": "https://anitambinyafoundation.org/",
