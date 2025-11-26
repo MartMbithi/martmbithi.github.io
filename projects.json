@@ -68,8 +68,14 @@
     {
         "title": "KibMawasco – Kibwezi-Makindu Water Company Website",
         "description": "Official portal for Kibwezi-Makindu Water & Sewerage Company: customer care, billing, and service info.",
-        "link": "https://https://kibmawasco.com/",
+        "link": "https://kibmawasco.com/",
         "image": "assets/img/portfolio/kibmawasco.webp"
+    },
+    {
+        "title": "Kilimo Makueni - Empowering Farmers through Data, Innovation and Knowledge",
+        "description": "A centralized platform for managing farmer data and sharing agricultural innovations, best practices, and insights to boost productivity and promote sustainable farming",
+        "link": "https://kilimo.makueni.go.ke/",
+        "image": "assets/img/portfolio/kilimo_makueni.webp"
     },
     {
         "title": "Kibwezi Teachers & IPS – College MIS System Kenya",
