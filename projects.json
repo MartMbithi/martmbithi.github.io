@@ -96,6 +96,12 @@
         "image": "assets/img/portfolio/makueni boys.webp"
     },
     {
+        "title": "Wanarika Makueni",
+        "description": "is a centralized platform that consolidates youth data to support informed decision-making, enhance transparency, and provide tailored opportunities through an intuitive and robust interface.",
+        "link": "https://www.youth.makueni.go.ke/",
+        "image": "assets/img/portfolio/makueni_youth.webp"
+    },
+    {
         "title": "Makueni Crestwood College – ERP for School Management",
         "description": "School Management ERP offering admissions, fees, attendance, academics, and communication modules.",
         "link": "https://tmcc-mis.devlan.co.ke/",
