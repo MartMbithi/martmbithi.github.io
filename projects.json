@@ -11,12 +11,7 @@
         "link": "https://cifmis.makueni.go.ke",
         "image": "assets/img/portfolio/cifmis.webp"
     },
-    {
-        "title": "Anita Mbinya Foundation – Women & Youth Empowerment in Kenya",
-        "description": "Official website of Anita Mbinya Foundation, focused on empowering women, youth, and vulnerable communities across Kenya.",
-        "link": "https://anitambinyafoundation.org/",
-        "image": "assets/img/portfolio/anitambinya.webp"
-    },
+    
     {
         "title": "CIC MIS – Community Information Centres Management System",
         "description": "Makueni County’s centralized digital platform for managing community ICT hubs, knowledge, and citizen engagement.",
@@ -35,24 +30,14 @@
         "link": "https://destinationmakueni.com/",
         "image": "assets/img/portfolio/destination-makueni.webp"
     },
-    {
-        "title": "Devlan Solutions LTD – Kenyan Software Development Agency",
-        "description": "Full-service tech company offering ERP systems, web apps, SaaS platforms, and custom software solutions in Kenya.",
-        "link": "https://devlan.co.ke/",
-        "image": "assets/img/portfolio/devlan_site.webp"
-    },
+    
     {
         "title": "ECDE MIS – Early Childhood Development Education MIS",
         "description": "Digitized system for managing ECDE centers, tracking learners, teachers, and infrastructure in Makueni County.",
         "link": "https://ecde.makueni.go.ke/",
         "image": "assets/img/portfolio/ecde_database.webp"
     },
-    {
-        "title": "Emuki Bees Hub – Beekeeping Training & Honey Production Kenya",
-        "description": "Transforming rural livelihoods through sustainable apiculture, honey processing, and bee product commercialization.",
-        "link": "https://emukibeeshub.co.ke/",
-        "image": "assets/img/portfolio/emuki_bees_hub.webp"
-    },
+    
     {
         "title": "eRegister – Biometric Staff Attendance System",
         "description": "Automated digital attendance system for public staff using biometrics and real-time data tracking.",
@@ -65,12 +50,7 @@
         "link": "https://ivas.makueni.go.ke/",
         "image": "assets/img/portfolio/ivamis.webp"
     },
-    {
-        "title": "KibMawasco – Kibwezi-Makindu Water Company Website",
-        "description": "Official portal for Kibwezi-Makindu Water & Sewerage Company: customer care, billing, and service info.",
-        "link": "https://kibmawasco.com/",
-        "image": "assets/img/portfolio/kibmawasco.webp"
-    },
+   
     {
         "title": "Kilimo Makueni - Empowering Farmers through Data, Innovation and Knowledge",
         "description": "A centralized platform for managing farmer data and sharing agricultural innovations, best practices, and insights to boost productivity and promote sustainable farming",
@@ -89,12 +69,7 @@
         "link": "https://github.com/MartDevelopers-Inc/lite_inventory",
         "image": "assets/img/portfolio/LiteInventory.webp"
     },
-    {
-        "title": "Makueni Boys High School – Official School Website",
-        "description": "Top national school in Kenya committed to academic excellence, discipline, and holistic student development.",
-        "link": "https://www.makueniboys.sc.ke/",
-        "image": "assets/img/portfolio/makueni boys.webp"
-    },
+   
     {
         "title": "Wanarika Makueni",
         "description": "is a centralized platform that consolidates youth data to support informed decision-making, enhance transparency, and provide tailored opportunities through an intuitive and robust interface.",
@@ -143,18 +118,7 @@
         "link": "https://tanasolutions.co.ke/",
         "image": "assets/img/portfolio/tana_solutions_ltd.webp"
     },
-    {
-        "title": "The Kitondo School – Premier Boys Secondary School Kenya",
-        "description": "Kitondo School offers holistic education, strong discipline, and national academic excellence.",
-        "link": "https://thekitondoschool.sc.ke/",
-        "image": "assets/img/portfolio/thekitondo.webp"
-    },
-    {
-        "title": "The Masinga School – Boys High School Kenya",
-        "description": "Official site of Masinga Boys High School, renowned for top KCSE performance and leadership molding.",
-        "link": "https://masingaboys.sc.ke/",
-        "image": "assets/img/portfolio/masinga_boys.webp"
-    },
+    
     {
         "title": "St Martin Kathonzweni Boys – Boys High School Kenya",
         "description": "Official site of St Martin Kathonzweni Boys, A leading STEM-focused extra-county school in Makueni, nurturing discipline, knowledge, and moral values for success in KCSE and beyond.",
