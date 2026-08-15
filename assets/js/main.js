@@ -1,4 +1,4 @@
-// Martin Mbithi — Portfolio
+// Portfolio
 // Mobile nav, sticky-header state, portfolio filter, reveal-on-scroll, footer year.
 
 (function () {
