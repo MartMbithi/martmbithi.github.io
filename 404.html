@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0e14" />
+    <script>document.documentElement.classList.add('js');</script>
+    <meta name="robots" content="noindex" />
+
+    <title>Page not found &middot; Martin Mbithi Nzilani</title>
+    <meta name="description" content="That page doesn't exist. Head back to the portfolio of Martin Mbithi Nzilani, software engineer." />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav" aria-label="Primary">
+          <a class="brand" href="/index.html" aria-label="Martin Mbithi Nzilani, home">
+            <span class="brand-mark" aria-hidden="true">&gt;_</span>
+            <span class="brand-text">Martin<span> Mbithi</span></span>
+          </a>
+          <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/>
+            </svg>
+          </button>
+          <ul id="primary-menu" class="nav-menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/experience.html">Experience</a></li>
+            <li><a href="/portfolio.html">Projects</a></li>
+            <li><a href="/assets/resume/Martin-Mbithi-Nzilani-CV.pdf" download>Resume</a></li>
+            <li><a class="nav-cta" href="/contact.html">./contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-label">// error 404</span>
+            <h1>That page doesn't exist.</h1>
+            <p>The link may be out of date, or the address might have a typo. Everything else is still where you left it.</p>
+          </div>
+
+          <aside class="about-panel" aria-label="Error detail" style="max-width:640px;">
+            <div class="about-panel-head">
+              <span class="dots" aria-hidden="true"><span></span><span></span><span></span></span>
+              <span>~/404</span>
+            </div>
+            <pre class="about-panel-body" style="margin:0; white-space:pre-wrap;"><span class="cmt">$ curl -I $REQUESTED_PATH</span>
+<span class="line">HTTP/2 404</span>
+<span class="line">&gt; status  :</span> <span class="str">not found</span>
+<span class="line">&gt; suggest :</span> <span class="str">try the portfolio or the CV</span>
+
+<span class="cmt">$ _</span></pre>
+          </aside>
+
+          <div class="hero-cta" style="margin-top:2.5rem;">
+            <a class="btn btn-primary" href="/index.html">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9"/><path d="M9 21V12h6v9"/></svg>
+              Back to home
+            </a>
+            <a class="btn btn-ghost" href="/portfolio.html">
+              View selected projects
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-meta">
+            <strong>&copy; <span data-year>2026</span> Martin Mbithi Nzilani</strong> &middot; Software Engineer &middot; Kenya
+          </div>
+          <ul class="footer-nav">
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/experience.html">Experience</a></li>
+            <li><a href="/portfolio.html">Projects</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

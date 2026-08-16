@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://martmbithi.github.io/sitemap.xml

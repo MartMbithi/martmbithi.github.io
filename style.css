@@ -230,7 +230,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .nav-toggle svg { width: 20px; height: 20px; }
 
-@media (max-width: 880px) {
+@media (max-width: 940px) {
   .nav-menu {
     position: fixed;
     top: 72px;
@@ -895,16 +895,156 @@ img { max-width: 100%; height: auto; display: block; }
 .footer-nav a { color: var(--text-dim); font-size: 0.9rem; }
 .footer-nav a:hover { color: var(--accent); }
 
-/* Reveal animation */
-[data-reveal] {
+/* Reveal animation.
+   Scoped to .js so that if the script fails to load, throws, or is blocked,
+   the content renders normally instead of being stuck at opacity 0. */
+.js [data-reveal] {
   opacity: 0;
   transform: translateY(14px);
   transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
 }
-[data-reveal].in {
+.js [data-reveal].in {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Case studies */
+.case-list {
+  display: grid;
+  gap: 1.5rem;
+}
+.case {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: border-color 0.25s var(--ease), transform 0.25s var(--ease);
+}
+.case:hover { border-color: var(--border-strong); transform: translateY(-2px); }
+.case.hidden { display: none; }
+.case-media {
+  position: relative;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+  /* Letterbox: the panel colour is the matte the screenshot sits on, so the
+     whole interface stays visible instead of being cropped to fill the cell. */
+  background: var(--bg-elev);
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+@media (min-width: 900px) {
+  .case { grid-template-columns: 360px 1fr; }
+  /* Let the image fill the full card height instead of being pinned to a
+     ratio that is always shorter than the text beside it. */
+  .case-media {
+    aspect-ratio: auto;
+    height: 100%;
+    min-height: 260px;
+    border-bottom: 0;
+    border-right: 1px solid var(--border);
+  }
+}
+.case-media img {
+  width: 100%; height: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 4px;
+  filter: saturate(0.95) contrast(1.02);
+  transition: transform 0.5s var(--ease);
+}
+.case:hover .case-media img { transform: scale(1.02); }
+.case-badge {
+  position: absolute;
+  top: 0.75rem; left: 0.75rem;
+  z-index: 2;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.55rem;
+  border-radius: 5px;
+  color: var(--accent);
+  background: rgba(10, 14, 20, 0.82);
+  border: 1px solid rgba(34, 211, 238, 0.3);
+  backdrop-filter: blur(8px);
+}
+.case-body {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.case-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.case-body h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+.case-body h3 a { color: inherit; }
+.case-body h3 a:hover { color: var(--accent); }
+.case-org {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-bottom: 1.1rem;
+}
+.case-dl { margin: 0 0 1.1rem; }
+.case-dl dt {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.3rem;
+}
+.case-dl dd {
+  margin: 0 0 0.9rem;
+  font-size: 0.94rem;
+  color: var(--text-dim);
+  line-height: 1.65;
+}
+.case-dl dd:last-child { margin-bottom: 0; }
+.case-dl dd strong { color: var(--text); font-weight: 600; }
+.case-dl .skill-tags { margin-top: 0; }
+.case-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--border);
+}
+.case-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--accent);
+}
+.case-link svg { width: 14px; height: 14px; }
+.case-link:hover { text-decoration: underline; }
+.case-private {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+.case-private svg { width: 13px; height: 13px; }
 
 /* Utility */
 .text-center { text-align: center; }
@@ -918,5 +1058,5 @@ img { max-width: 100%; height: auto; display: block; }
     transition-duration: 0.01ms !important;
   }
   html { scroll-behavior: auto; }
-  [data-reveal] { opacity: 1; transform: none; }
+  .js [data-reveal] { opacity: 1; transform: none; }
 }

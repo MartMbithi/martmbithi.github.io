@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="theme-color" content="#0a0e14" />
+    <script>document.documentElement.classList.add('js');</script>
     <meta name="google-site-verification" content="fbm9LJdJbIkXoUFB6_Aw0Ess9GP_gOHggUfwngAAZkY" />
 
-    <title>Portfolio &middot; Software Engineer &times; Cybersecurity</title>
-    <meta name="description" content="30+ production-grade web, government and enterprise SaaS systems built with a security-first, full-stack mindset." />
-    <meta name="keywords" content="Portfolio, Software Engineer, Government Systems, Enterprise SaaS, Web Development, Full-Stack Projects" />
+    <title>Selected Projects &middot; Martin Mbithi Nzilani, Software Engineer</title>
+    <meta name="author" content="Martin Mbithi Nzilani" />
+    <meta name="description" content="Selected projects and case studies by Martin Mbithi Nzilani: county integrated financial management, e-procurement, project monitoring, agriculture, vocational training and asset management platforms, plus enterprise ERP and inventory systems." />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Portfolio &middot; Selected Work" />
-    <meta property="og:description" content="30+ production-grade systems across government, enterprise and community sectors." />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Selected Projects &middot; Martin Mbithi Nzilani" />
+    <meta property="og:description" content="Government and enterprise systems engineered from brief to production." />
     <meta property="og:url" content="https://martmbithi.github.io/portfolio.html" />
-    <meta property="og:site_name" content="Engineering Portfolio" />
+    <meta property="og:site_name" content="Martin Mbithi Nzilani" />
+    <meta property="og:image" content="https://martmbithi.github.io/assets/img/martin-mbithi.jpg" />
+    <meta property="og:image:alt" content="Portrait of Martin Mbithi Nzilani" />
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Portfolio &middot; Selected Work" />
-    <meta name="twitter:description" content="Production systems across government, enterprise and community sectors." />
+    <meta name="twitter:title" content="Selected Projects &middot; Martin Mbithi Nzilani" />
+    <meta name="twitter:description" content="Government and enterprise systems engineered from brief to production." />
+    <meta name="twitter:image" content="https://martmbithi.github.io/assets/img/martin-mbithi.jpg" />
 
     <link rel="canonical" href="https://martmbithi.github.io/portfolio.html" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
@@ -33,10 +37,19 @@
       {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "Portfolio",
+        "name": "Selected Projects",
         "url": "https://martmbithi.github.io/portfolio.html",
-        "description": "Selected production systems across government, enterprise and community sectors.",
-        "sameAs": ["https://github.com/MartMbithi"]
+        "description": "Government and enterprise systems designed, engineered and maintained by Martin Mbithi Nzilani, spanning public financial management, e-procurement, project monitoring, education, agriculture and asset management.",
+        "about": {
+          "@type": "Person",
+          "name": "Martin Mbithi Nzilani",
+          "jobTitle": "Software Engineer, Applications Development",
+          "url": "https://martmbithi.github.io",
+          "sameAs": [
+            "https://github.com/MartMbithi",
+            "https://www.linkedin.com/in/martin-mbithi-6626b617a/"
+          ]
+        }
       }
     </script>
 
@@ -55,9 +68,9 @@
     <header class="site-header">
       <div class="container">
         <nav class="nav" aria-label="Primary">
-          <a class="brand" href="index.html" aria-label="M@Rt!N M3!tHi, home">
-            <span class="brand-mark">&gt;_</span>
-            <span class="brand-text">M@Rt!N<span> M3!tHi</span></span>
+          <a class="brand" href="index.html" aria-label="Martin Mbithi Nzilani, home">
+            <span class="brand-mark" aria-hidden="true">&gt;_</span>
+            <span class="brand-text">Martin<span> Mbithi</span></span>
           </a>
           <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-menu">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
@@ -68,7 +81,8 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="experience.html">Experience</a></li>
-            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="portfolio.html" class="active">Projects</a></li>
+            <li><a href="assets/resume/Martin-Mbithi-Nzilani-CV.pdf" download>Resume</a></li>
             <li><a class="nav-cta" href="contact.html">./contact</a></li>
           </ul>
         </nav>
@@ -79,437 +93,510 @@
       <section class="section">
         <div class="container">
           <div class="section-head center" data-reveal>
-            <span class="section-label">// selected work</span>
-            <h1>Portfolio: things I've shipped.</h1>
-            <p>A proven track record of designing, delivering and supporting scalable information systems across government, enterprise and community sectors: secure, reliable, user-centred, and built with modern tooling.</p>
+            <span class="section-label">// selected projects &middot; case studies</span>
+            <h1>Selected projects, in production.</h1>
+            <p>Eighteen platforms carrying real workloads: county public financial management and e-procurement, project accountability, agriculture, education and asset registries, and private-sector ERP and inventory software. Each entry sets out the problem, the solution and my role in it, and the technology behind it.</p>
           </div>
 
-          <div class="filter-bar" role="tablist" aria-label="Filter projects" data-reveal>
-            <button class="filter-btn active" data-filter="*" role="tab">All</button>
-            <button class="filter-btn" data-filter="websites" role="tab">Websites</button>
-            <button class="filter-btn" data-filter="government" role="tab">Government</button>
-            <button class="filter-btn" data-filter="enterprise" role="tab">Enterprise / SaaS</button>
+          <div class="filter-bar" role="tablist" aria-label="Filter case studies by sector" data-reveal>
+            <button class="filter-btn active" data-filter="*" role="tab" aria-selected="true" id="tab-all" aria-controls="case-grid">All</button>
+            <button class="filter-btn" data-filter="government" role="tab" aria-selected="false" id="tab-government" aria-controls="case-grid">Government</button>
+            <button class="filter-btn" data-filter="enterprise" role="tab" aria-selected="false" id="tab-enterprise" aria-controls="case-grid">Enterprise &amp; SaaS</button>
           </div>
 
-          <div class="portfolio-grid" data-reveal>
-            <!-- Websites -->
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/anitambinya.webp" alt="Anita Mbinya Foundation" loading="lazy" />
+          <div class="case-list" id="case-grid" role="tabpanel" aria-labelledby="tab-all" aria-live="polite" data-reveal>
+
+            <!-- ===== Government ===== -->
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Public finance</span>
+                <img src="assets/img/portfolio/cifmis.webp" alt="CIFMIS county financial management interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://anitambinyafoundation.org/" target="_blank" rel="noopener">Anita Mbinya Foundation</a></h3>
-                <a href="https://anitambinyafoundation.org/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Anita Mbinya Foundation">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://cifmis.makueni.go.ke" target="_blank" rel="noopener">CIFMIS, County Integrated Financial Management</a></h3>
+                <div class="case-org">Government of Makueni County</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>County departments each plan budgets, commit spend and collect revenue, and all of it has to reconcile into one auditable picture for treasury and oversight bodies. Spreading that across disconnected records makes reporting slow and reconciliation manual.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered and maintained the backend services and underlying data model for budgeting and expenditure workflows. Architected <strong>RESTful APIs integrating with banks and payment gateways</strong> so transactions flow in without re-keying, and optimised SQL queries to keep reporting responsive as the ledger grows.</dd>
+                  <dt>Impact</dt>
+                  <dd>Budget planning, commitments and revenue collection reconcile into a single auditable record for treasury and oversight bodies, with bank and gateway transactions captured automatically rather than re-entered by hand.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>REST</li><li>Linux</li><li>Nginx</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://cifmis.makueni.go.ke" target="_blank" rel="noopener">
+                    cifmis.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/devlan_site.webp" alt="Devlan Solutions LTD" loading="lazy" />
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Procurement</span>
+                <img src="assets/img/portfolio/iSupplier.webp" alt="Suppliers Registration Portal interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://devlan.co.ke/" target="_blank" rel="noopener">Devlan Solutions LTD</a></h3>
-                <a href="https://devlan.co.ke/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Devlan Solutions">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/emuki_bees_hub.webp" alt="Emuki Bees Hub" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://emukibeeshub.co.ke/" target="_blank" rel="noopener">Emuki Bees Hub</a></h3>
-                <a href="https://emukibeeshub.co.ke/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Emuki Bees Hub">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/kibmawasco.webp" alt="Kibwezi-Makindu Water Company" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://kibmawasco.com/" target="_blank" rel="noopener">Kibwezi-Makindu Water Co.</a></h3>
-                <a href="https://kibmawasco.com/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Kibmawasco">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://procurement.makueni.go.ke" target="_blank" rel="noopener">Suppliers Registration Portal</a></h3>
+                <div class="case-org">Government of Makueni County</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Any vendor bidding for county work must register and prequalify first. Handling that through physical paperwork limits who can realistically apply and slows procurement officers reviewing submissions.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Delivered the online registration path end to end: category selection, document upload, server-side validation and a review queue procurement staff work through. Access is scoped so vendors only ever see their own submission.</dd>
+                  <dt>Impact</dt>
+                  <dd>Vendor registration and prequalification run online rather than on paper, widening the pool that can realistically apply and giving procurement officers one queue to assess submissions in.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>File handling</li><li>AuthN/AuthZ</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://procurement.makueni.go.ke" target="_blank" rel="noopener">
+                    procurement.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/kibwezi.webp" alt="Kibwezi Teachers Training College" loading="lazy" />
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Accountability</span>
+                <img src="assets/img/portfolio/pmts.webp" alt="Projects Monitoring and Tracking System interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://kibweziteachers.com" target="_blank" rel="noopener">Kibwezi Teachers Training College</a></h3>
-                <a href="https://kibweziteachers.com" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Kibwezi Teachers">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/makueni boys.webp" alt="Makueni Boys High School" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://www.makueniboys.sc.ke/" target="_blank" rel="noopener">Makueni Boys High School</a></h3>
-                <a href="https://www.makueniboys.sc.ke/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Makueni Boys">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/masinga_boys.webp" alt="The Masinga School" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://masingaboys.sc.ke/" target="_blank" rel="noopener">The Masinga School</a></h3>
-                <a href="https://masingaboys.sc.ke/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Masinga School">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://pmts.makueni.go.ke" target="_blank" rel="noopener">PMTS, Projects Monitoring &amp; Tracking</a></h3>
+                <div class="case-org">Government of Makueni County</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Development projects run across every ward and department, and citizens have a legitimate claim on knowing what was promised, what it cost and how far it has got. Without a shared register that question is answered department by department.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered the platform the county uses to publish project status openly, described on the system itself as improving efficiency, transparency and accountability in tracking projects across the county. Work covered the project data model, status workflows and the public-facing views.</dd>
+                  <dt>Impact</dt>
+                  <dd>Development projects across every ward and department report into one public register, so what was promised, what it cost and how far it has progressed is answerable from a single source rather than department by department.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>REST</li><li>Reporting</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://pmts.makueni.go.ke" target="_blank" rel="noopener">
+                    pmts.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/thekitondo.webp" alt="The Kitondo School" loading="lazy" />
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Youth &amp; skills</span>
+                <img src="assets/img/portfolio/ivamis.webp" alt="IVA System interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://thekitondoschool.sc.ke/" target="_blank" rel="noopener">The Kitondo School</a></h3>
-                <a href="https://thekitondoschool.sc.ke/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open The Kitondo School">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/mwaani_girls.webp" alt="Mwaani Girls' High School" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://mwaanigirls.sc.ke/" target="_blank" rel="noopener">Mwaani Girls' High School</a></h3>
-                <a href="https://mwaanigirls.sc.ke/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Mwaani Girls">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/kathonzweni_boys.webp" alt="St Martin Kathonzweni Boys" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://stmartinkathonzweni.sc.ke/" target="_blank" rel="noopener">St Martin Kathonzweni Boys</a></h3>
-                <a href="https://stmartinkathonzweni.sc.ke/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open St Martin Kathonzweni">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://ivas.makueni.go.ke" target="_blank" rel="noopener">IVA System, Internships &amp; Attachments</a></h3>
+                <div class="case-org">Government of Makueni County</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Students chasing internships, industrial attachment, mentorship or volunteer placements had to approach departments one at a time, and the county had no single view of who had been placed where.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered the platform connecting students to opportunities across county departments: applications, placement records and the administrative layer that lets officers manage intake centrally rather than field it by phone and letter.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Email workflows</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://ivas.makueni.go.ke" target="_blank" rel="noopener">
+                    ivas.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/ubc.webp" alt="Ukamba Bible College" loading="lazy" />
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Agriculture</span>
+                <img src="assets/img/portfolio/kilimo_makueni.webp" alt="Kilimo Makueni farmer platform interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://ubc.co.ke" target="_blank" rel="noopener">Ukamba Bible College</a></h3>
-                <a href="https://ubc.co.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Ukamba Bible College">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/intel_pro_ltd.webp" alt="InterlPro LTD" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://intelproltd.com" target="_blank" rel="noopener">InterlPro LTD</a></h3>
-                <a href="https://intelproltd.com" target="_blank" rel="noopener" class="project-arrow" aria-label="Open InterlPro">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/tana_solutions_ltd.webp" alt="Tana Solutions LTD" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://tanasolutions.co.ke" target="_blank" rel="noopener">Tana Solutions LTD</a></h3>
-                <a href="https://tanasolutions.co.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Tana Solutions">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://kilimo.makueni.go.ke" target="_blank" rel="noopener">Kilimo Makueni, Farmer Data &amp; e-Extension</a></h3>
+                <div class="case-org">Makueni Department of Agriculture, Livestock, Fisheries &amp; Cooperatives</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Extension advice reaches farmers through field officers whose reach is limited by distance and headcount, while farmer records sat outside any central system that could inform planning.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered the county's centralised platform for managing farmer data and delivering agricultural guidance digitally, carrying innovations, best practices and productivity insights to farmers through e-extension rather than physical visits alone.</dd>
+                  <dt>Impact</dt>
+                  <dd>Extension advice reaches farmers beyond the limits of field officer headcount and travel distance, and farmer records now sit in one county-managed store available for planning.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Content workflows</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://kilimo.makueni.go.ke" target="_blank" rel="noopener">
+                    kilimo.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="websites">
-              <div class="project-thumb">
-                <span class="project-tag">Web</span>
-                <img src="assets/img/portfolio/native_beecare.webp" alt="Native Beecare LTD" loading="lazy" />
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Sports registry</span>
+                <img src="assets/img/portfolio/makueni_sports.webp" alt="Makueni County sports register interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://nativebeecare.co.ke/" target="_blank" rel="noopener">Native Beecare LTD</a></h3>
-                <a href="https://nativebeecare.co.ke/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Native Beecare">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <!-- Government systems -->
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/cifmis.webp" alt="CIFMIS" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://cifmis.makueni.go.ke" target="_blank" rel="noopener">CIFMIS</a></h3>
-                <a href="https://cifmis.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open CIFMIS">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/ivamis.webp" alt="IVAs" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://ivas.makueni.go.ke" target="_blank" rel="noopener">IVAs</a></h3>
-                <a href="https://ivas.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open IVAs">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://sports.makueni.go.ke" target="_blank" rel="noopener">Makueni County Sports Register</a></h3>
+                <div class="case-org">Makueni County Directorate of Sports</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Teams, fixtures, results and playing grounds were tracked informally, leaving the directorate without a dependable picture of participation when allocating facilities and funding.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered the public register covering fixtures, results and teams, replacing informal tracking with structured, queryable records.</dd>
+                  <dt>Impact</dt>
+                  <dd>The register now holds <strong>45 disciplines, 845 registered teams and 564 sports grounds across 30 wards in six sub counties</strong> as structured data, giving the directorate a dependable participation picture to allocate facilities and funding against.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Search</li><li>Geodata</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://sports.makueni.go.ke" target="_blank" rel="noopener">
+                    sports.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/umanyi_center.webp" alt="Umanyi Center" loading="lazy" />
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Social services</span>
+                <img src="assets/img/portfolio/makueni_youth.webp" alt="Gender, Youth and Social Services information system interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://umanyi.makueni.go.ke" target="_blank" rel="noopener">Umanyi Center</a></h3>
-                <a href="https://umanyi.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Umanyi Center">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/pmts.webp" alt="Projects Monitoring & Tracking System" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://pmts.makueni.go.ke" target="_blank" rel="noopener">Projects Monitoring & Tracking</a></h3>
-                <a href="https://pmts.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open PMTS">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/iSupplier.webp" alt="Supplier Registration Portal" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://procurement.makueni.go.ke" target="_blank" rel="noopener">Supplier Registration Portal</a></h3>
-                <a href="https://procurement.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Supplier Portal">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://youth.makueni.go.ke" target="_blank" rel="noopener">Gender, Youth &amp; Social Services Information System</a></h3>
+                <div class="case-org">Government of Makueni County</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Empowerment programmes, sports activities and children's and social services each generated their own records, making it hard to see who was being reached or to report on the portfolio as a whole.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Delivered the system that streamlines youth empowerment programmes, sports activity coordination and information management for the department, consolidating separate programme records into one managed store.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Reporting</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://youth.makueni.go.ke" target="_blank" rel="noopener">
+                    youth.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/destination-makueni.webp" alt="Destination Makueni" loading="lazy" />
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Vocational training</span>
+                <img src="assets/img/portfolio/vtc.webp" alt="Vocational Training Centres management system interface" loading="lazy" />
               </div>
-              <div class="project-body">
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://vtc.makueni.go.ke" target="_blank" rel="noopener">VIIMS, Vocational Training Centres Management</a></h3>
+                <div class="case-org">Government of Makueni County</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Vocational centres across the county each held their own learner and resource records, so tracking enrolment, progression and equipment allocation county-wide meant collating returns by hand.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered the information management system covering data management, learner tracking and resource allocation across the centres, including the public application route for prospective trainees.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Admissions workflow</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://vtc.makueni.go.ke" target="_blank" rel="noopener">
+                    vtc.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Early education</span>
+                <img src="assets/img/portfolio/ecde_database.webp" alt="ECDE management system interface" loading="lazy" />
+              </div>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://ecde.makueni.go.ke" target="_blank" rel="noopener">ECDE Management System</a></h3>
+                <div class="case-org">Government of Makueni County</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Early childhood education is a devolved county function, which means keeping dependable records of centres, learners and teaching staff to plan staffing and infrastructure against real numbers.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Designed and delivered the county's ECDE system as the authoritative record of centres, learners and teaching staff, replacing returns compiled by hand with a single queryable database.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Reporting</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://ecde.makueni.go.ke" target="_blank" rel="noopener">
+                    ecde.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Knowledge management</span>
+                <img src="assets/img/portfolio/umanyi_center.webp" alt="Umanyi Centre knowledge platform interface" loading="lazy" />
+              </div>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://umanyi.makueni.go.ke" target="_blank" rel="noopener">Umanyi Centre, Research &amp; Knowledge Management</a></h3>
+                <div class="case-org">Government of Makueni County</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>What the county learns delivering services tends to stay with the team that learned it, so successful approaches are not easy for other departments to find or reuse.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered the county's knowledge hub: a central repository giving access to service delivery solutions, success stories, innovations and best practices, with the categorisation and search that make an archive usable rather than merely stored.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Search</li><li>CMS</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://umanyi.makueni.go.ke" target="_blank" rel="noopener">
+                    umanyi.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Service centres</span>
+                <img src="assets/img/portfolio/makueni_cic_mis.webp" alt="County Information Centers management system interface" loading="lazy" />
+              </div>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
+                <h3><a href="https://cic.makueni.go.ke" target="_blank" rel="noopener">CIC MIS, County Information Centers</a></h3>
+                <div class="case-org">Government of Makueni County</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>County information centres are where residents physically go for digital access and services, and running them well needs visibility of usage, resources and staffing at each site.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Delivered the management system covering the centre network: site records, resources and the operational reporting that lets the county run them as one service rather than isolated outposts.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Reporting</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://cic.makueni.go.ke" target="_blank" rel="noopener">
+                    cic.makueni.go.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Tourism platform</span>
+                <img src="assets/img/portfolio/destination-makueni.webp" alt="Destination Makueni platform interface" loading="lazy" />
+              </div>
+              <div class="case-body">
+                <span class="case-eyebrow">County government &middot; 2023 to present</span>
                 <h3><a href="https://destinationmakueni.com" target="_blank" rel="noopener">Destination Makueni</a></h3>
-                <a href="https://destinationmakueni.com" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Destination Makueni">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+                <div class="case-org">Government of Makueni County</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Hospitality and tourism operators across the county are mostly small businesses with little individual reach online, so visitors had no single place to find and book what the county offers.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered the directory platform covering hotels, transport, safaris, dining and events, structured so visitors reach operators directly rather than through an intermediary. Work covered the listing data model, categorisation and operator management.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Search</li><li>Media handling</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://destinationmakueni.com" target="_blank" rel="noopener">
+                    destinationmakueni.com
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/makueni_cic_mis.webp" alt="CIC MIS" loading="lazy" />
+            <article class="case" data-category="government">
+              <div class="case-media">
+                <span class="case-badge">Asset management</span>
+                <img src="assets/img/portfolio/nca_aims.webp" alt="NCA assets and inventory management system interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://cic.makueni.go.ke" target="_blank" rel="noopener">CIC MIS</a></h3>
-                <a href="https://cic.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open CIC MIS">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/ecde_database.webp" alt="ECDE MIS" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://ecde.makueni.go.ke" target="_blank" rel="noopener">ECDE MIS</a></h3>
-                <a href="https://ecde.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open ECDE MIS">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/kilimo_makueni.webp" alt="Kilimo Makueni" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://kilimo.makueni.go.ke" target="_blank" rel="noopener">Kilimo Makueni</a></h3>
-                <a href="https://kilimo.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Kilimo Makueni">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+              <div class="case-body">
+                <span class="case-eyebrow">National government agency</span>
+                <h3>NCA Assets &amp; Inventory MIS</h3>
+                <div class="case-org">National Construction Authority</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>A national regulator holds assets and stock across multiple offices, and without a single register, audit, depreciation and accountability for who holds what all become manual exercises.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered the assets and inventory management system: the asset register, custody and movement tracking, and the reporting the authority needs to satisfy audit.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>MySQL</li><li>REST</li><li>Reporting</li><li>RBAC</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <span class="case-private">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    Internal system, no public access
+                  </span>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/makueni_youth.webp" alt="Wanarika Makueni" loading="lazy" />
+            <!-- ===== Enterprise &amp; SaaS ===== -->
+            <article class="case" data-category="enterprise">
+              <div class="case-media">
+                <span class="case-badge">ERP</span>
+                <img src="assets/img/portfolio/ubc_erp.webp" alt="Ukamba Bible College ERP interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://youth.makueni.go.ke" target="_blank" rel="noopener">Wanarika Makueni</a></h3>
-                <a href="https://youth.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Wanarika Makueni">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/makueni_sports.webp" alt="Michezo Makueni" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://sports.makueni.go.ke" target="_blank" rel="noopener">Michezo Makueni</a></h3>
-                <a href="https://sports.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Michezo Makueni">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/vtc.webp" alt="Makueni VTC" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://vtc.makueni.go.ke" target="_blank" rel="noopener">Makueni VTC</a></h3>
-                <a href="https://vtc.makueni.go.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Makueni VTC">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+              <div class="case-body">
+                <span class="case-eyebrow">Higher education &middot; 2020 to 2021</span>
+                <h3>Ukamba Bible College ERP</h3>
+                <div class="case-org">Ukamba Bible College</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Admissions, student records, fees and academic administration were handled as separate processes, so staff re-entered the same information and reconciling a student's status meant checking several places.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Maintained and extended the institutional ERP as the college's Web Developer and ERP Support Officer, diagnosing and resolving user-reported faults, improving interface usability and sustaining the system through daily administrative work.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>ERP support</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <span class="case-private">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    Internal system, login required
+                  </span>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="government">
-              <div class="project-thumb">
-                <span class="project-tag">Gov</span>
-                <img src="assets/img/portfolio/nca_aims.webp" alt="NCA AIMS" loading="lazy" />
+            <article class="case" data-category="enterprise">
+              <div class="case-media">
+                <span class="case-badge">Media platform</span>
+                <img src="assets/img/portfolio/soo_tv.webp" alt="Soo TV media platform interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://nca.go.ke/" target="_blank" rel="noopener">NCA Assets &amp; Inventory MIS</a></h3>
-                <a href="https://nca.go.ke/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open NCA AIMS">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <!-- Enterprise / SaaS -->
-            <article class="project" data-category="enterprise">
-              <div class="project-thumb">
-                <span class="project-tag">SaaS</span>
-                <img src="assets/img/portfolio/ubc_erp.webp" alt="Ukamba Bible College ERP" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3><a href="https://ubc.co.ke/" target="_blank" rel="noopener">Ukamba Bible College ERP</a></h3>
-                <a href="https://ubc.co.ke/" target="_blank" rel="noopener" class="project-arrow" aria-label="Open UBC ERP">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project" data-category="enterprise">
-              <div class="project-thumb">
-                <span class="project-tag">SaaS</span>
-                <img src="assets/img/portfolio/college_erp.webp" alt="Makueni Crestwood College MIS" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3>Makueni Crestwood College MIS</h3>
-                <span class="project-arrow" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </span>
-              </div>
-            </article>
-
-            <article class="project" data-category="enterprise">
-              <div class="project-thumb">
-                <span class="project-tag">SaaS</span>
-                <img src="assets/img/portfolio/LiteInventory.webp" alt="Lite Inventory MIS" loading="lazy" />
-              </div>
-              <div class="project-body">
-                <h3>Lite Inventory MIS</h3>
-                <span class="project-arrow" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </span>
-              </div>
-            </article>
-
-            <article class="project" data-category="enterprise">
-              <div class="project-thumb">
-                <span class="project-tag">SaaS</span>
-                <img src="assets/img/portfolio/soo_tv.webp" alt="Soo TV" loading="lazy" />
-              </div>
-              <div class="project-body">
+              <div class="case-body">
+                <span class="case-eyebrow">Media &amp; broadcast</span>
                 <h3><a href="https://sootv.co.ke" target="_blank" rel="noopener">Soo TV</a></h3>
-                <a href="https://sootv.co.ke" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Soo TV">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+                <div class="case-org">Soo TV</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>A broadcaster publishing news, features and entertainment needs to move stories quickly and serve heavy media to viewers on variable mobile connections.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Developed the publishing platform covering breaking news, long-form stories and entertainment content, with the editorial workflow behind it and media delivery optimised so pages stay usable on constrained bandwidth.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Media delivery</li><li>Caching</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <a class="case-link" href="https://sootv.co.ke" target="_blank" rel="noopener">
+                    sootv.co.ke
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
               </div>
             </article>
 
-            <article class="project" data-category="enterprise">
-              <div class="project-thumb">
-                <span class="project-tag">SaaS</span>
-                <img src="assets/img/portfolio/crib360.webp" alt="Crib360 Rental MIS" loading="lazy" />
+            <article class="case" data-category="enterprise">
+              <div class="case-media">
+                <span class="case-badge">Property tech</span>
+                <img src="assets/img/portfolio/crib360.webp" alt="Crib360 rental management interface" loading="lazy" />
               </div>
-              <div class="project-body">
-                <h3><a href="https://makaziproperties.com" target="_blank" rel="noopener">Crib360 Rental MIS</a></h3>
-                <a href="https://makaziproperties.com" target="_blank" rel="noopener" class="project-arrow" aria-label="Open Crib360">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
+              <div class="case-body">
+                <span class="case-eyebrow">Property management</span>
+                <h3>Crib360 Rental MIS</h3>
+                <div class="case-org">Private client</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Landlords and agents managing multiple units track tenancies, rent collection and arrears across spreadsheets and message threads, which breaks down as the portfolio grows.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered the rental management system covering property and unit records, tenancy lifecycle, rent invoicing and arrears tracking, giving owners one place to see occupancy and money owed.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>Billing logic</li><li>SMS/Email</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <span class="case-private">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    Private deployment
+                  </span>
+                </div>
               </div>
             </article>
+
+            <article class="case" data-category="enterprise">
+              <div class="case-media">
+                <span class="case-badge">Inventory</span>
+                <img src="assets/img/portfolio/LiteInventory.webp" alt="Lite Inventory management interface" loading="lazy" />
+              </div>
+              <div class="case-body">
+                <span class="case-eyebrow">Product</span>
+                <h3>Lite Inventory MIS</h3>
+                <div class="case-org">Own product</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>Small traders are poorly served by inventory software: enterprise suites cost too much and carry far more than they need, so most fall back on notebooks and spreadsheets.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Designed and developed a deliberately lightweight stock system covering products, stock movement, reorder levels and sales records, scoped so a small business can run it without dedicated IT support.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Reporting</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <span class="case-private">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    Demo available on request
+                  </span>
+                </div>
+              </div>
+            </article>
+
+            <article class="case" data-category="enterprise">
+              <div class="case-media">
+                <span class="case-badge">Education MIS</span>
+                <img src="assets/img/portfolio/college_erp.webp" alt="Makueni Crestwood College management system interface" loading="lazy" />
+              </div>
+              <div class="case-body">
+                <span class="case-eyebrow">Higher education</span>
+                <h3>Makueni Crestwood College MIS</h3>
+                <div class="case-org">Makueni Crestwood College</div>
+                <dl class="case-dl">
+                  <dt>Problem</dt>
+                  <dd>A growing college running admissions, student records, fees and results on disconnected tools spends staff time on reconciliation instead of teaching support.</dd>
+                  <dt>Solution &amp; role</dt>
+                  <dd>Engineered the college management system consolidating admissions, student records, fee tracking and academic results, with role-based access separating administration, finance and teaching staff.</dd>
+                  <dt>Technology</dt>
+                  <dd><ul class="skill-tags"><li>PHP</li><li>Laravel</li><li>MySQL</li><li>RBAC</li><li>Reporting</li></ul></dd>
+                </dl>
+                <div class="case-foot">
+                  <span class="case-private">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    Internal system, login required
+                  </span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <div class="hero-cta" style="justify-content:center; margin-top:3rem;" data-reveal>
+            <a class="btn btn-primary" href="assets/resume/Martin-Mbithi-Nzilani-CV.pdf" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+            <a class="btn btn-ghost" href="contact.html">
+              Talk about a project
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
           </div>
         </div>
       </section>
@@ -519,12 +606,14 @@
       <div class="container">
         <div class="footer-grid">
           <div class="footer-meta">
-            <strong>&copy; <span data-year>2026</span> dev.portfolio</strong> &middot; built with clean HTML, CSS and intent
+            <strong>&copy; <span data-year>2026</span> Martin Mbithi Nzilani</strong> &middot; Software Engineer &middot; Kenya
           </div>
           <ul class="footer-nav">
             <li><a href="about.html">About</a></li>
             <li><a href="experience.html">Experience</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="portfolio.html">Projects</a></li>
+            <li><a href="assets/resume/Martin-Mbithi-Nzilani-CV.pdf" download>Resume</a></li>
+            <li><a href="https://www.linkedin.com/in/martin-mbithi-6626b617a/" target="_blank" rel="noopener">LinkedIn</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
