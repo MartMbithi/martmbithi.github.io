@@ -1,4 +1,4 @@
-/* Martin Mbithi Nzilani, portfolio stylesheet. Dark theme, cyan accent. */
+/* Martin Mbithi, portfolio stylesheet. Dark theme, cyan accent. */
 
 :root {
   --bg: #0a0e14;
@@ -274,6 +274,28 @@ img { max-width: 100%; height: auto; display: block; }
   padding: clamp(3rem, 8vw, 6rem) 0 clamp(4rem, 10vw, 7rem);
   position: relative;
 }
+.single-screen .hero {
+  min-height: calc(100vh - 72px);
+  min-height: calc(100dvh - 72px);
+  display: flex;
+  align-items: center;
+  padding-top: clamp(1.5rem, 3vw, 2.5rem);
+  padding-bottom: clamp(1.5rem, 3vw, 2.5rem);
+}
+.single-screen .hero > .container { width: 100%; }
+.single-screen .hero .lede { max-width: 640px; margin-bottom: 1.5rem; }
+.single-screen .hero-meta { margin-top: 2rem; padding-top: 1.5rem; }
+@media (min-width: 960px) {
+  .single-screen .hero-meta { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+}
+.single-screen .social { margin-top: 1.5rem; }
+@media (min-width: 960px) and (max-height: 820px) {
+  .single-screen .hero h1 { font-size: clamp(2rem, 3.6vw, 2.8rem); margin-bottom: 0.4em; }
+  .single-screen .hero .lede { font-size: 1rem; margin-bottom: 1.25rem; }
+  .single-screen .hero-meta { margin-top: 1.5rem; padding-top: 1.25rem; }
+  .single-screen .social { margin-top: 1.25rem; }
+  .single-screen .hero-portrait { max-width: 380px; margin-left: auto; }
+}
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -284,40 +306,6 @@ img { max-width: 100%; height: auto; display: block; }
   .hero-grid { grid-template-columns: 1.1fr 0.9fr; gap: 4rem; }
 }
 
-.status-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  padding: 0.4rem 0.85rem;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  color: var(--text-dim);
-  background: var(--bg-elev);
-  margin-bottom: 1.5rem;
-}
-.status-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--success);
-  box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.18);
-  position: relative;
-}
-.status-dot::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  background: var(--success);
-  animation: pulse 2s var(--ease) infinite;
-}
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 0.9; }
-  70% { transform: scale(2.2); opacity: 0; }
-  100% { transform: scale(2.2); opacity: 0; }
-}
 
 .hero .lede {
   font-size: clamp(1rem, 1.6vw, 1.15rem);
