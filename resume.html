@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0e14" />
+    <script>document.documentElement.classList.add('js');</script>
+
+    <title>Resume &middot; Martin Mbithi Nzilani</title>
+    <meta name="author" content="Martin Mbithi Nzilani" />
+    <meta name="description" content="Resume of Martin Mbithi Nzilani, software engineer: eight years across public-sector and enterprise systems, cloud infrastructure, systems integration and cybersecurity. View online or download as PDF." />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Resume &middot; Martin Mbithi Nzilani" />
+    <meta property="og:description" content="Software engineer, eight years across public-sector and enterprise systems." />
+    <meta property="og:url" content="https://martmbithi.github.io/resume.html" />
+    <meta property="og:site_name" content="Martin Mbithi Nzilani" />
+    <meta property="og:image" content="https://martmbithi.github.io/assets/img/martin-mbithi.jpg" />
+
+    <link rel="canonical" href="https://martmbithi.github.io/resume.html" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .resume-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: space-between; align-items: center; max-width: 860px; margin: 0 auto 1.5rem; }
+      .resume-actions p { margin: 0; font-size: 0.95rem; }
+
+      .sheet {
+        background: #ffffff;
+        color: #1f2937;
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 3rem 3.25rem;
+        border-radius: 6px;
+        box-shadow: var(--shadow-lg);
+        font-family: var(--font-sans);
+        font-size: 13.5px;
+        line-height: 1.5;
+      }
+      .sheet h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; color: #111827; margin: 0 0 2px; }
+      .sheet .tagline { font-size: 14px; font-weight: 500; color: #374151; margin: 0 0 8px; }
+      .sheet .contact { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: #4b5563; padding-bottom: 14px; margin-bottom: 6px; border-bottom: 2px solid #111827; }
+      .sheet .contact a { color: #0e7490; }
+      .sheet h2 { font-size: 11.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0e7490; margin: 20px 0 8px; padding-bottom: 4px; border-bottom: 1px solid #e5e7eb; }
+      .sheet p { color: #1f2937; margin: 0 0 8px; }
+      .sheet .job { margin-bottom: 13px; break-inside: avoid; }
+      .sheet .job-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+      .sheet .job-head h3 { font-size: 14px; font-weight: 600; color: #111827; margin: 0; letter-spacing: 0; }
+      .sheet .job-head span { font-size: 12px; color: #6b7280; white-space: nowrap; }
+      .sheet .org { font-size: 13px; color: #374151; margin: 1px 0 5px; }
+      .sheet ul { margin: 0; padding-left: 18px; color: #1f2937; }
+      .sheet li { margin-bottom: 3px; }
+      .sheet li::marker { color: #0e7490; }
+      .sheet .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 24px; }
+      .sheet .grid div { font-size: 13px; }
+      .sheet .grid strong { color: #111827; font-weight: 600; }
+      .sheet .edu { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 4px; }
+      .sheet .edu span:last-child { color: #6b7280; font-size: 12px; white-space: nowrap; }
+      @media (max-width: 640px) {
+        .sheet { padding: 1.75rem 1.25rem; }
+        .sheet .grid { grid-template-columns: 1fr; }
+      }
+
+      @media print {
+        @page { size: A4; margin: 12mm 14mm; }
+        html { scroll-behavior: auto; }
+        body { background: #ffffff !important; background-image: none !important; color: #1f2937; }
+        body::before { display: none; }
+        .site-header, .site-footer, .resume-actions, .skip-link { display: none !important; }
+        .section { padding: 0; }
+        .container { padding: 0; max-width: none; }
+        .sheet { max-width: none; padding: 0; border-radius: 0; box-shadow: none; font-size: 10pt; line-height: 1.42; }
+        .sheet h2 { margin: 13px 0 6px; }
+        .sheet .job { margin-bottom: 9px; }
+        .sheet li { margin-bottom: 2px; }
+        .sheet .grid { gap: 3px 20px; }
+        .sheet h1 { font-size: 20pt; }
+        .sheet h2 { break-after: avoid; }
+        .js [data-reveal] { opacity: 1 !important; transform: none !important; transition: none !important; }
+        a { color: inherit; text-decoration: none; }
+      }
+    </style>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "name": "Resume",
+        "url": "https://martmbithi.github.io/resume.html",
+        "mainEntity": {
+          "@type": "Person",
+          "name": "Martin Mbithi Nzilani",
+          "jobTitle": "Software Engineer",
+          "url": "https://martmbithi.github.io",
+          "email": "mailto:martinezmbithi@gmail.com",
+          "telephone": "+254740847563",
+          "sameAs": [
+            "https://github.com/MartMbithi",
+            "https://www.linkedin.com/in/martin-mbithi-6626b617a/"
+          ]
+        }
+      }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSZH0W9N7X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag("js", new Date());
+      gtag("config", "G-SSZH0W9N7X");
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav" aria-label="Primary">
+          <a class="brand" href="index.html" aria-label="Martin Mbithi Nzilani, home">
+            <span class="brand-text">Martin Mbithi</span>
+          </a>
+          <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/>
+            </svg>
+          </button>
+          <ul id="primary-menu" class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="portfolio.html">Projects</a></li>
+            <li><a href="resume.html" class="active">Resume</a></li>
+            <li><a class="nav-cta" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section" style="padding-top: clamp(2rem, 5vw, 3.5rem);">
+        <div class="container">
+          <div class="resume-actions">
+            <p>Two pages, A4. Updated September 2026.</p>
+            <a class="btn btn-primary" href="assets/resume/Martin-Mbithi-Nzilani-CV.pdf" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download PDF
+            </a>
+          </div>
+
+          <article class="sheet" id="resume">
+            <h1>Martin Mbithi Nzilani</h1>
+            <p class="tagline">Software Engineer</p>
+            <div class="contact">
+              <span>Kenya (GMT+3)</span>
+              <span>+254 740 847 563</span>
+              <a href="mailto:martinezmbithi@gmail.com">martinezmbithi@gmail.com</a>
+              <a href="https://martmbithi.github.io">martmbithi.github.io</a>
+              <a href="https://github.com/MartMbithi">github.com/MartMbithi</a>
+              <a href="https://www.linkedin.com/in/martin-mbithi-6626b617a/">linkedin.com/in/martin-mbithi-6626b617a</a>
+            </div>
+
+            <h2>Profile</h2>
+            <p>Software engineer with eight years building web, mobile and cloud systems for government, NGOs and private companies. Currently in the Applications Development section at the Government of Makueni County, part of the in-house team that built myMakueni, the county's enterprise resource planning platform (31 modules, launched August 2026). Strengths in backend and API development, integration with banks and payment gateways, cloud and Linux infrastructure, and secure development. MSc in Cyber Security and Digital Forensics.</p>
+
+            <h2>Core competencies</h2>
+            <div class="grid">
+              <div><strong>Languages:</strong> PHP, Python, Java, JavaScript, C, Bash, SQL</div>
+              <div><strong>Frameworks:</strong> Laravel, Django, Flask, Spring Boot, Node.js, React, Vue</div>
+              <div><strong>Cloud and infrastructure:</strong> AWS, Google Cloud, Kubernetes, Docker, CI/CD, Linux and Unix, Nginx</div>
+              <div><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Redis</div>
+              <div><strong>Integration:</strong> RESTful APIs, microservices, bank and payment gateway integration, Swagger, Postman</div>
+              <div><strong>Security and testing:</strong> Secure development, system audits, role-based access control, unit and automated testing</div>
+              <div><strong>Delivery:</strong> Agile, Scrum, Kanban, JIRA, Git, GitHub, GitLab, code review</div>
+              <div><strong>Design:</strong> Figma, Adobe XD</div>
+            </div>
+
+            <h2>Professional experience</h2>
+
+            <div class="job">
+              <div class="job-head">
+                <h3>Software Engineer, Applications Development</h3>
+                <span>Mar 2023 to present</span>
+              </div>
+              <div class="org">Government of Makueni County</div>
+              <ul>
+                <li>Build and maintain the county's in-house software as part of the ICT Applications Development team, including myMakueni, the county ERP launched in August 2026 with 31 modules across finance, planning, health, HR and citizen engagement.</li>
+                <li>Engineer the backend services and data models for the public finance modules: revenue billing and receipting, programme-based budgeting and expenditure workflows.</li>
+                <li>Design and maintain REST APIs integrating county systems with banks, payment gateways and SMS and email services.</li>
+                <li>Deliver the county systems linked from the ERP, including the procurement portal, PMTS, IVAS, Kilimo Makueni and the ECDE, VTC and CIC management systems.</li>
+                <li>Optimise SQL and NoSQL schemas and queries to keep reporting responsive as data grows.</li>
+                <li>Introduced Git-based workflow, code review and automated testing; mentor junior engineers and work with finance, procurement and operations staff to turn policy into working software.</li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="job-head">
+                <h3>ICT Officer</h3>
+                <span>Jan 2022 to Feb 2023</span>
+              </div>
+              <div class="org">ICT Authority, Machakos County Headquarters</div>
+              <ul>
+                <li>Provided technical support to staff, resolving hardware and software faults.</li>
+                <li>Installed and maintained network infrastructure to keep connectivity and system performance stable.</li>
+                <li>Ran regular system audits and implemented cybersecurity controls against data breaches and unauthorised access.</li>
+                <li>Worked with departmental teams to specify and roll out technology that reduced manual effort.</li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="job-head">
+                <h3>Mobile Application Developer</h3>
+                <span>Jan 2021 to Nov 2021</span>
+              </div>
+              <div class="org">World Christian Fellowship (NGO)</div>
+              <ul>
+                <li>Developed and maintained native iOS and Android applications in Swift and Java.</li>
+                <li>Implemented interfaces from design mockups and integrated third-party APIs for geolocation and social sharing.</li>
+                <li>Tested across devices and OS versions; user satisfaction rose 30% and load times fell 20% after memory profiling.</li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="job-head">
+                <h3>Web Application Developer</h3>
+                <span>Jan 2020 to Jul 2021</span>
+              </div>
+              <div class="org">Ezana Group</div>
+              <ul>
+                <li>Developed responsive web applications with HTML, CSS, JavaScript, React, Vue and Bootstrap.</li>
+                <li>Worked with UI/UX designers on interfaces that raised user engagement by 20%.</li>
+                <li>Built server-side components and REST APIs in Node.js and Express.</li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="job-head">
+                <h3>Web Developer and ERP Support Officer</h3>
+                <span>Jan 2020 to Jan 2021</span>
+              </div>
+              <div class="org">Ukamba Bible College</div>
+              <ul>
+                <li>Supported and extended the college's web applications and ERP system.</li>
+                <li>Implemented designer mockups as production pages, contributing to a 25% rise in site traffic.</li>
+                <li>Reduced page load times, cutting bounce rate by 15%, and resolved cross-browser compatibility issues.</li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="job-head">
+                <h3>Software Engineer</h3>
+                <span>Jan 2018 to Jan 2020</span>
+              </div>
+              <div class="org">DevLan Solutions Ltd</div>
+              <ul>
+                <li>Introduced code review, Git version control and unit testing across the team.</li>
+                <li>Developed REST APIs for data exchange between software components.</li>
+                <li>Profiled and tuned application performance and resolved complex technical faults to reduce downtime.</li>
+                <li>Delivered features on Agile cycles aligned to client priorities.</li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="job-head">
+                <h3>Graphic Designer</h3>
+                <span>Jan 2016 to Jan 2018</span>
+              </div>
+              <div class="org">Lauh Print Company, Machakos</div>
+              <ul>
+                <li>Produced branding, marketing and digital artwork, and print materials to client brand guidelines, in Photoshop, Illustrator and InDesign.</li>
+              </ul>
+            </div>
+
+            <h2>Education</h2>
+            <div class="edu"><span><strong>MSc, Cyber Security and Digital Forensics</strong>, Open University of Kenya</span><span></span></div>
+            <div class="edu"><span><strong>BSc, Computer Science</strong>, St Paul's University</span><span>2017 to 2020</span></div>
+
+            <h2>Certifications</h2>
+            <ul>
+              <li>Software Engineering Certification, Open University of Kenya, 2025</li>
+              <li>Agile Project Management and JIRA, HP Foundation, Atlassian and Great Learning, 2024</li>
+              <li>DevOps Certification, Edureka, 2022</li>
+              <li>Cyber Security Essentials, Cisco, 2019</li>
+              <li>Mobile Web Specialist, Andela and Google Africa Developer Scholarship, 2018</li>
+              <li>NDG Linux Unhatched and Linux Essentials, Cisco, 2017</li>
+              <li>ICDL and Graphic Design, CTC College, 2016</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-meta">
+            <strong>&copy; <span data-year>2026</span> Martin Mbithi Nzilani</strong> &middot; Software Engineer &middot; Kenya
+          </div>
+          <ul class="footer-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="portfolio.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="https://www.linkedin.com/in/martin-mbithi-6626b617a/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
